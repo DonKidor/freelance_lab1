@@ -19,7 +19,7 @@ namespace flab1
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            new Form1().ShowDialog(this);
+            new Form1().Show(this);
         }
     }
 }

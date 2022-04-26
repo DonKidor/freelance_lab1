@@ -851,6 +851,7 @@
             this.lctPanel.Name = "lctPanel";
             this.lctPanel.Size = new System.Drawing.Size(621, 64);
             this.lctPanel.TabIndex = 53;
+            this.lctPanel.Visible = false;
             // 
             // pictureBox25
             // 
