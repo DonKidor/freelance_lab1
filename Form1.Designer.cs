@@ -837,7 +837,7 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
-            this.Text = "Lab1";
+            this.Text = "Lab3";
             this.solutionPanel.ResumeLayout(false);
             this.solutionPanel.PerformLayout();
             this.normPtPanel.ResumeLayout(false);

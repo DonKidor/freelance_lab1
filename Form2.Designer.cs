@@ -58,52 +58,52 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.lam0mPanel = new System.Windows.Forms.Panel();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.l0mnLabel = new System.Windows.Forms.Label();
-            this.l0mmtiLabel = new System.Windows.Forms.Label();
             this.l0mResult = new System.Windows.Forms.Label();
+            this.l0mmtiLabel = new System.Windows.Forms.Label();
+            this.l0mnLabel = new System.Windows.Forms.Label();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.lam0lCheckBox = new System.Windows.Forms.CheckBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.lam0lPanel = new System.Windows.Forms.Panel();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.l0l1Label = new System.Windows.Forms.Label();
             this.l0lResult = new System.Windows.Forms.Label();
+            this.l0l1Label = new System.Windows.Forms.Label();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pctPanel = new System.Windows.Forms.Panel();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pct1Label = new System.Windows.Forms.Label();
-            this.pctmLabel = new System.Windows.Forms.Label();
             this.pctResult = new System.Windows.Forms.Label();
+            this.pctmLabel = new System.Windows.Forms.Label();
+            this.pct1Label = new System.Windows.Forms.Label();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.mtcPanel = new System.Windows.Forms.Panel();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.mtc1Label = new System.Windows.Forms.Label();
-            this.mtclLabel = new System.Windows.Forms.Label();
             this.mtcResult = new System.Windows.Forms.Label();
+            this.mtclLabel = new System.Windows.Forms.Label();
+            this.mtc1Label = new System.Windows.Forms.Label();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.fctPanel = new System.Windows.Forms.Panel();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.fctResult = new System.Windows.Forms.Label();
-            this.fctl1Label = new System.Windows.Forms.Label();
-            this.fctmLabel = new System.Windows.Forms.Label();
-            this.fctl2Label = new System.Windows.Forms.Label();
             this.fctl3Label = new System.Windows.Forms.Label();
+            this.fctl2Label = new System.Windows.Forms.Label();
+            this.fctmLabel = new System.Windows.Forms.Label();
+            this.fctl1Label = new System.Windows.Forms.Label();
+            this.fctResult = new System.Windows.Forms.Label();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.qctPanel = new System.Windows.Forms.Panel();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.qct1Label = new System.Windows.Forms.Label();
-            this.qct2Label = new System.Windows.Forms.Label();
             this.qctResult = new System.Windows.Forms.Label();
+            this.qct2Label = new System.Windows.Forms.Label();
+            this.qct1Label = new System.Windows.Forms.Label();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.lctPanel = new System.Windows.Forms.Panel();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
-            this.lctfLabel = new System.Windows.Forms.Label();
-            this.lcpLabel = new System.Windows.Forms.Label();
             this.lcResult = new System.Windows.Forms.Label();
+            this.lcpLabel = new System.Windows.Forms.Label();
+            this.lctfLabel = new System.Windows.Forms.Label();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -114,29 +114,29 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.lam0mPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.lam0lPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             this.pctPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             this.mtcPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             this.fctPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             this.qctPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             this.lctPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -418,35 +418,15 @@
             this.lam0mPanel.TabIndex = 41;
             this.lam0mPanel.Visible = false;
             // 
-            // pictureBox10
+            // l0mResult
             // 
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(3, 0);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(103, 61);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 0;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(112, 2);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(182, 61);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 1;
-            this.pictureBox11.TabStop = false;
-            // 
-            // l0mnLabel
-            // 
-            this.l0mnLabel.AutoSize = true;
-            this.l0mnLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.l0mnLabel.Location = new System.Drawing.Point(173, 11);
-            this.l0mnLabel.Name = "l0mnLabel";
-            this.l0mnLabel.Size = new System.Drawing.Size(45, 15);
-            this.l0mnLabel.TabIndex = 2;
-            this.l0mnLabel.Text = "label5";
+            this.l0mResult.AutoSize = true;
+            this.l0mResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.l0mResult.Location = new System.Drawing.Point(294, 23);
+            this.l0mResult.Name = "l0mResult";
+            this.l0mResult.Size = new System.Drawing.Size(45, 15);
+            this.l0mResult.TabIndex = 4;
+            this.l0mResult.Text = "label5";
             // 
             // l0mmtiLabel
             // 
@@ -458,15 +438,35 @@
             this.l0mmtiLabel.TabIndex = 3;
             this.l0mmtiLabel.Text = "label5";
             // 
-            // l0mResult
+            // l0mnLabel
             // 
-            this.l0mResult.AutoSize = true;
-            this.l0mResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.l0mResult.Location = new System.Drawing.Point(294, 23);
-            this.l0mResult.Name = "l0mResult";
-            this.l0mResult.Size = new System.Drawing.Size(45, 15);
-            this.l0mResult.TabIndex = 4;
-            this.l0mResult.Text = "label5";
+            this.l0mnLabel.AutoSize = true;
+            this.l0mnLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.l0mnLabel.Location = new System.Drawing.Point(173, 11);
+            this.l0mnLabel.Name = "l0mnLabel";
+            this.l0mnLabel.Size = new System.Drawing.Size(45, 15);
+            this.l0mnLabel.TabIndex = 2;
+            this.l0mnLabel.Text = "label5";
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
+            this.pictureBox11.Location = new System.Drawing.Point(112, 2);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(182, 61);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 1;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(3, 0);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(103, 61);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 0;
+            this.pictureBox10.TabStop = false;
             // 
             // pictureBox12
             // 
@@ -521,25 +521,15 @@
             this.lam0lPanel.TabIndex = 48;
             this.lam0lPanel.Visible = false;
             // 
-            // pictureBox15
+            // l0lResult
             // 
-            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
-            this.pictureBox15.Location = new System.Drawing.Point(3, 4);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(103, 61);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox15.TabIndex = 5;
-            this.pictureBox15.TabStop = false;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-            this.pictureBox16.Location = new System.Drawing.Point(112, 1);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(256, 61);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox16.TabIndex = 6;
-            this.pictureBox16.TabStop = false;
+            this.l0lResult.AutoSize = true;
+            this.l0lResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.l0lResult.Location = new System.Drawing.Point(360, 24);
+            this.l0lResult.Name = "l0lResult";
+            this.l0lResult.Size = new System.Drawing.Size(45, 15);
+            this.l0lResult.TabIndex = 8;
+            this.l0lResult.Text = "label5";
             // 
             // l0l1Label
             // 
@@ -551,15 +541,25 @@
             this.l0l1Label.TabIndex = 7;
             this.l0l1Label.Text = "label5";
             // 
-            // l0lResult
+            // pictureBox16
             // 
-            this.l0lResult.AutoSize = true;
-            this.l0lResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.l0lResult.Location = new System.Drawing.Point(360, 24);
-            this.l0lResult.Name = "l0lResult";
-            this.l0lResult.Size = new System.Drawing.Size(45, 15);
-            this.l0lResult.TabIndex = 8;
-            this.l0lResult.Text = "label5";
+            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
+            this.pictureBox16.Location = new System.Drawing.Point(112, 1);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(256, 61);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox16.TabIndex = 6;
+            this.pictureBox16.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
+            this.pictureBox15.Location = new System.Drawing.Point(3, 4);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(103, 61);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox15.TabIndex = 5;
+            this.pictureBox15.TabStop = false;
             // 
             // pctPanel
             // 
@@ -575,35 +575,15 @@
             this.pctPanel.TabIndex = 49;
             this.pctPanel.Visible = false;
             // 
-            // pictureBox17
+            // pctResult
             // 
-            this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
-            this.pictureBox17.Location = new System.Drawing.Point(0, 4);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(232, 61);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox17.TabIndex = 9;
-            this.pictureBox17.TabStop = false;
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
-            this.pictureBox18.Location = new System.Drawing.Point(-1, 50);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(405, 61);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox18.TabIndex = 10;
-            this.pictureBox18.TabStop = false;
-            // 
-            // pct1Label
-            // 
-            this.pct1Label.AutoSize = true;
-            this.pct1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.pct1Label.Location = new System.Drawing.Point(163, 66);
-            this.pct1Label.Name = "pct1Label";
-            this.pct1Label.Size = new System.Drawing.Size(45, 15);
-            this.pct1Label.TabIndex = 9;
-            this.pct1Label.Text = "label5";
+            this.pctResult.AutoSize = true;
+            this.pctResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.pctResult.Location = new System.Drawing.Point(399, 71);
+            this.pctResult.Name = "pctResult";
+            this.pctResult.Size = new System.Drawing.Size(45, 15);
+            this.pctResult.TabIndex = 9;
+            this.pctResult.Text = "label5";
             // 
             // pctmLabel
             // 
@@ -615,15 +595,35 @@
             this.pctmLabel.TabIndex = 11;
             this.pctmLabel.Text = "label5";
             // 
-            // pctResult
+            // pct1Label
             // 
-            this.pctResult.AutoSize = true;
-            this.pctResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.pctResult.Location = new System.Drawing.Point(399, 71);
-            this.pctResult.Name = "pctResult";
-            this.pctResult.Size = new System.Drawing.Size(45, 15);
-            this.pctResult.TabIndex = 9;
-            this.pctResult.Text = "label5";
+            this.pct1Label.AutoSize = true;
+            this.pct1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.pct1Label.Location = new System.Drawing.Point(163, 66);
+            this.pct1Label.Name = "pct1Label";
+            this.pct1Label.Size = new System.Drawing.Size(45, 15);
+            this.pct1Label.TabIndex = 9;
+            this.pct1Label.Text = "label5";
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
+            this.pictureBox18.Location = new System.Drawing.Point(-1, 50);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(405, 61);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox18.TabIndex = 10;
+            this.pictureBox18.TabStop = false;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
+            this.pictureBox17.Location = new System.Drawing.Point(0, 4);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(232, 61);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox17.TabIndex = 9;
+            this.pictureBox17.TabStop = false;
             // 
             // mtcPanel
             // 
@@ -639,35 +639,15 @@
             this.mtcPanel.TabIndex = 50;
             this.mtcPanel.Visible = false;
             // 
-            // pictureBox19
+            // mtcResult
             // 
-            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.Location = new System.Drawing.Point(0, 5);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(144, 61);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox19.TabIndex = 12;
-            this.pictureBox19.TabStop = false;
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
-            this.pictureBox20.Location = new System.Drawing.Point(150, 5);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(199, 61);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox20.TabIndex = 13;
-            this.pictureBox20.TabStop = false;
-            // 
-            // mtc1Label
-            // 
-            this.mtc1Label.AutoSize = true;
-            this.mtc1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.mtc1Label.Location = new System.Drawing.Point(215, 15);
-            this.mtc1Label.Name = "mtc1Label";
-            this.mtc1Label.Size = new System.Drawing.Size(45, 15);
-            this.mtc1Label.TabIndex = 12;
-            this.mtc1Label.Text = "label5";
+            this.mtcResult.AutoSize = true;
+            this.mtcResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.mtcResult.Location = new System.Drawing.Point(346, 25);
+            this.mtcResult.Name = "mtcResult";
+            this.mtcResult.Size = new System.Drawing.Size(45, 15);
+            this.mtcResult.TabIndex = 12;
+            this.mtcResult.Text = "label5";
             // 
             // mtclLabel
             // 
@@ -679,15 +659,35 @@
             this.mtclLabel.TabIndex = 14;
             this.mtclLabel.Text = "label5";
             // 
-            // mtcResult
+            // mtc1Label
             // 
-            this.mtcResult.AutoSize = true;
-            this.mtcResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.mtcResult.Location = new System.Drawing.Point(346, 25);
-            this.mtcResult.Name = "mtcResult";
-            this.mtcResult.Size = new System.Drawing.Size(45, 15);
-            this.mtcResult.TabIndex = 12;
-            this.mtcResult.Text = "label5";
+            this.mtc1Label.AutoSize = true;
+            this.mtc1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.mtc1Label.Location = new System.Drawing.Point(215, 15);
+            this.mtc1Label.Name = "mtc1Label";
+            this.mtc1Label.Size = new System.Drawing.Size(45, 15);
+            this.mtc1Label.TabIndex = 12;
+            this.mtc1Label.Text = "label5";
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
+            this.pictureBox20.Location = new System.Drawing.Point(150, 5);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(199, 61);
+            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox20.TabIndex = 13;
+            this.pictureBox20.TabStop = false;
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
+            this.pictureBox19.Location = new System.Drawing.Point(0, 5);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(144, 61);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox19.TabIndex = 12;
+            this.pictureBox19.TabStop = false;
             // 
             // fctPanel
             // 
@@ -705,55 +705,15 @@
             this.fctPanel.TabIndex = 51;
             this.fctPanel.Visible = false;
             // 
-            // pictureBox21
+            // fctl3Label
             // 
-            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
-            this.pictureBox21.Location = new System.Drawing.Point(1, -9);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(366, 61);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox21.TabIndex = 15;
-            this.pictureBox21.TabStop = false;
-            // 
-            // pictureBox22
-            // 
-            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
-            this.pictureBox22.Location = new System.Drawing.Point(-1, 41);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(583, 61);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox22.TabIndex = 16;
-            this.pictureBox22.TabStop = false;
-            // 
-            // fctResult
-            // 
-            this.fctResult.AutoSize = true;
-            this.fctResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.fctResult.Location = new System.Drawing.Point(578, 61);
-            this.fctResult.Name = "fctResult";
-            this.fctResult.Size = new System.Drawing.Size(45, 15);
-            this.fctResult.TabIndex = 15;
-            this.fctResult.Text = "label5";
-            // 
-            // fctl1Label
-            // 
-            this.fctl1Label.AutoSize = true;
-            this.fctl1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.fctl1Label.Location = new System.Drawing.Point(63, 61);
-            this.fctl1Label.Name = "fctl1Label";
-            this.fctl1Label.Size = new System.Drawing.Size(45, 15);
-            this.fctl1Label.TabIndex = 15;
-            this.fctl1Label.Text = "label5";
-            // 
-            // fctmLabel
-            // 
-            this.fctmLabel.AutoSize = true;
-            this.fctmLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.fctmLabel.Location = new System.Drawing.Point(157, 62);
-            this.fctmLabel.Name = "fctmLabel";
-            this.fctmLabel.Size = new System.Drawing.Size(45, 15);
-            this.fctmLabel.TabIndex = 17;
-            this.fctmLabel.Text = "label5";
+            this.fctl3Label.AutoSize = true;
+            this.fctl3Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fctl3Label.Location = new System.Drawing.Point(451, 56);
+            this.fctl3Label.Name = "fctl3Label";
+            this.fctl3Label.Size = new System.Drawing.Size(45, 15);
+            this.fctl3Label.TabIndex = 19;
+            this.fctl3Label.Text = "label5";
             // 
             // fctl2Label
             // 
@@ -765,15 +725,55 @@
             this.fctl2Label.TabIndex = 18;
             this.fctl2Label.Text = "label5";
             // 
-            // fctl3Label
+            // fctmLabel
             // 
-            this.fctl3Label.AutoSize = true;
-            this.fctl3Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.fctl3Label.Location = new System.Drawing.Point(451, 56);
-            this.fctl3Label.Name = "fctl3Label";
-            this.fctl3Label.Size = new System.Drawing.Size(45, 15);
-            this.fctl3Label.TabIndex = 19;
-            this.fctl3Label.Text = "label5";
+            this.fctmLabel.AutoSize = true;
+            this.fctmLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fctmLabel.Location = new System.Drawing.Point(157, 62);
+            this.fctmLabel.Name = "fctmLabel";
+            this.fctmLabel.Size = new System.Drawing.Size(45, 15);
+            this.fctmLabel.TabIndex = 17;
+            this.fctmLabel.Text = "label5";
+            // 
+            // fctl1Label
+            // 
+            this.fctl1Label.AutoSize = true;
+            this.fctl1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fctl1Label.Location = new System.Drawing.Point(63, 61);
+            this.fctl1Label.Name = "fctl1Label";
+            this.fctl1Label.Size = new System.Drawing.Size(45, 15);
+            this.fctl1Label.TabIndex = 15;
+            this.fctl1Label.Text = "label5";
+            // 
+            // fctResult
+            // 
+            this.fctResult.AutoSize = true;
+            this.fctResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fctResult.Location = new System.Drawing.Point(578, 61);
+            this.fctResult.Name = "fctResult";
+            this.fctResult.Size = new System.Drawing.Size(45, 15);
+            this.fctResult.TabIndex = 15;
+            this.fctResult.Text = "label5";
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
+            this.pictureBox22.Location = new System.Drawing.Point(-1, 41);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(583, 61);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox22.TabIndex = 16;
+            this.pictureBox22.TabStop = false;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
+            this.pictureBox21.Location = new System.Drawing.Point(1, -9);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(366, 61);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox21.TabIndex = 15;
+            this.pictureBox21.TabStop = false;
             // 
             // qctPanel
             // 
@@ -789,35 +789,15 @@
             this.qctPanel.TabIndex = 52;
             this.qctPanel.Visible = false;
             // 
-            // pictureBox23
+            // qctResult
             // 
-            this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
-            this.pictureBox23.Location = new System.Drawing.Point(-2, 10);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(201, 32);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox23.TabIndex = 20;
-            this.pictureBox23.TabStop = false;
-            // 
-            // pictureBox24
-            // 
-            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(203, 11);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(335, 32);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox24.TabIndex = 21;
-            this.pictureBox24.TabStop = false;
-            // 
-            // qct1Label
-            // 
-            this.qct1Label.AutoSize = true;
-            this.qct1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.qct1Label.Location = new System.Drawing.Point(326, 11);
-            this.qct1Label.Name = "qct1Label";
-            this.qct1Label.Size = new System.Drawing.Size(45, 15);
-            this.qct1Label.TabIndex = 20;
-            this.qct1Label.Text = "label5";
+            this.qctResult.AutoSize = true;
+            this.qctResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.qctResult.Location = new System.Drawing.Point(534, 16);
+            this.qctResult.Name = "qctResult";
+            this.qctResult.Size = new System.Drawing.Size(45, 15);
+            this.qctResult.TabIndex = 20;
+            this.qctResult.Text = "label5";
             // 
             // qct2Label
             // 
@@ -829,15 +809,35 @@
             this.qct2Label.TabIndex = 22;
             this.qct2Label.Text = "label5";
             // 
-            // qctResult
+            // qct1Label
             // 
-            this.qctResult.AutoSize = true;
-            this.qctResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.qctResult.Location = new System.Drawing.Point(534, 16);
-            this.qctResult.Name = "qctResult";
-            this.qctResult.Size = new System.Drawing.Size(45, 15);
-            this.qctResult.TabIndex = 20;
-            this.qctResult.Text = "label5";
+            this.qct1Label.AutoSize = true;
+            this.qct1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.qct1Label.Location = new System.Drawing.Point(326, 11);
+            this.qct1Label.Name = "qct1Label";
+            this.qct1Label.Size = new System.Drawing.Size(45, 15);
+            this.qct1Label.TabIndex = 20;
+            this.qct1Label.Text = "label5";
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
+            this.pictureBox24.Location = new System.Drawing.Point(203, 11);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(335, 32);
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox24.TabIndex = 21;
+            this.pictureBox24.TabStop = false;
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
+            this.pictureBox23.Location = new System.Drawing.Point(-2, 10);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(201, 32);
+            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox23.TabIndex = 20;
+            this.pictureBox23.TabStop = false;
             // 
             // lctPanel
             // 
@@ -853,35 +853,15 @@
             this.lctPanel.TabIndex = 53;
             this.lctPanel.Visible = false;
             // 
-            // pictureBox25
+            // lcResult
             // 
-            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
-            this.pictureBox25.Location = new System.Drawing.Point(3, 7);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(114, 54);
-            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox25.TabIndex = 23;
-            this.pictureBox25.TabStop = false;
-            // 
-            // pictureBox26
-            // 
-            this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
-            this.pictureBox26.Location = new System.Drawing.Point(126, 9);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(300, 54);
-            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox26.TabIndex = 24;
-            this.pictureBox26.TabStop = false;
-            // 
-            // lctfLabel
-            // 
-            this.lctfLabel.AutoSize = true;
-            this.lctfLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctfLabel.Location = new System.Drawing.Point(221, 14);
-            this.lctfLabel.Name = "lctfLabel";
-            this.lctfLabel.Size = new System.Drawing.Size(45, 15);
-            this.lctfLabel.TabIndex = 23;
-            this.lctfLabel.Text = "label5";
+            this.lcResult.AutoSize = true;
+            this.lcResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lcResult.Location = new System.Drawing.Point(418, 25);
+            this.lcResult.Name = "lcResult";
+            this.lcResult.Size = new System.Drawing.Size(45, 15);
+            this.lcResult.TabIndex = 23;
+            this.lcResult.Text = "label5";
             // 
             // lcpLabel
             // 
@@ -893,15 +873,35 @@
             this.lcpLabel.TabIndex = 25;
             this.lcpLabel.Text = "label5";
             // 
-            // lcResult
+            // lctfLabel
             // 
-            this.lcResult.AutoSize = true;
-            this.lcResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lcResult.Location = new System.Drawing.Point(418, 25);
-            this.lcResult.Name = "lcResult";
-            this.lcResult.Size = new System.Drawing.Size(45, 15);
-            this.lcResult.TabIndex = 23;
-            this.lcResult.Text = "label5";
+            this.lctfLabel.AutoSize = true;
+            this.lctfLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lctfLabel.Location = new System.Drawing.Point(221, 14);
+            this.lctfLabel.Name = "lctfLabel";
+            this.lctfLabel.Size = new System.Drawing.Size(45, 15);
+            this.lctfLabel.TabIndex = 23;
+            this.lctfLabel.Text = "label5";
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
+            this.pictureBox26.Location = new System.Drawing.Point(126, 9);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(300, 54);
+            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox26.TabIndex = 24;
+            this.pictureBox26.TabStop = false;
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
+            this.pictureBox25.Location = new System.Drawing.Point(3, 7);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(114, 54);
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox25.TabIndex = 23;
+            this.pictureBox25.TabStop = false;
             // 
             // Form2
             // 
@@ -949,7 +949,7 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form2";
-            this.Text = "lab2";
+            this.Text = "lab4";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -961,35 +961,35 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.lam0mPanel.ResumeLayout(false);
             this.lam0mPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.lam0lPanel.ResumeLayout(false);
             this.lam0lPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.pctPanel.ResumeLayout(false);
             this.pctPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             this.mtcPanel.ResumeLayout(false);
             this.mtcPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             this.fctPanel.ResumeLayout(false);
             this.fctPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             this.qctPanel.ResumeLayout(false);
             this.qctPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             this.lctPanel.ResumeLayout(false);
             this.lctPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
