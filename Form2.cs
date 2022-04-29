@@ -187,7 +187,6 @@ namespace flab1
         }
         private void Button1_Click(object sender, EventArgs e)
         {
-
             lam0mPanel.Visible = false;
             if(lam0mCheckBox.Checked)
             {
