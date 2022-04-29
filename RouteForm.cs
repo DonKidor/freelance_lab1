@@ -26,5 +26,10 @@ namespace flab1
         {
             new Form2().Show(this);
         }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            new Form3().Show(this);
+        }
     }
 }

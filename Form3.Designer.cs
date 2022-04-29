@@ -162,7 +162,7 @@
             this.fctC2Label = new System.Windows.Forms.Label();
             this.fctC3Label = new System.Windows.Forms.Label();
             this.fctC4Label = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.fctCResult = new System.Windows.Forms.Label();
             this.lctCPanel = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
             this.pictureBox46 = new System.Windows.Forms.PictureBox();
@@ -1134,7 +1134,7 @@
             this.lctWPanel.Controls.Add(this.pictureBox33);
             this.lctWPanel.Location = new System.Drawing.Point(234, 595);
             this.lctWPanel.Name = "lctWPanel";
-            this.lctWPanel.Size = new System.Drawing.Size(779, 162);
+            this.lctWPanel.Size = new System.Drawing.Size(779, 131);
             this.lctWPanel.TabIndex = 88;
             this.lctWPanel.Visible = false;
             // 
@@ -1191,7 +1191,7 @@
             // pictureBox35
             // 
             this.pictureBox35.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox35.Image")));
-            this.pictureBox35.Location = new System.Drawing.Point(4, 92);
+            this.pictureBox35.Location = new System.Drawing.Point(4, 80);
             this.pictureBox35.Name = "pictureBox35";
             this.pictureBox35.Size = new System.Drawing.Size(466, 43);
             this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1202,7 +1202,7 @@
             // 
             this.lctW1Label.AutoSize = true;
             this.lctW1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctW1Label.Location = new System.Drawing.Point(69, 105);
+            this.lctW1Label.Location = new System.Drawing.Point(69, 93);
             this.lctW1Label.Name = "lctW1Label";
             this.lctW1Label.Size = new System.Drawing.Size(45, 15);
             this.lctW1Label.TabIndex = 29;
@@ -1212,7 +1212,7 @@
             // 
             this.lctW2Label.AutoSize = true;
             this.lctW2Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctW2Label.Location = new System.Drawing.Point(177, 97);
+            this.lctW2Label.Location = new System.Drawing.Point(177, 85);
             this.lctW2Label.Name = "lctW2Label";
             this.lctW2Label.Size = new System.Drawing.Size(45, 15);
             this.lctW2Label.TabIndex = 32;
@@ -1222,7 +1222,7 @@
             // 
             this.lctW3Label.AutoSize = true;
             this.lctW3Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctW3Label.Location = new System.Drawing.Point(177, 114);
+            this.lctW3Label.Location = new System.Drawing.Point(177, 102);
             this.lctW3Label.Name = "lctW3Label";
             this.lctW3Label.Size = new System.Drawing.Size(45, 15);
             this.lctW3Label.TabIndex = 33;
@@ -1232,7 +1232,7 @@
             // 
             this.lctW4Label.AutoSize = true;
             this.lctW4Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctW4Label.Location = new System.Drawing.Point(261, 99);
+            this.lctW4Label.Location = new System.Drawing.Point(261, 87);
             this.lctW4Label.Name = "lctW4Label";
             this.lctW4Label.Size = new System.Drawing.Size(45, 15);
             this.lctW4Label.TabIndex = 34;
@@ -1242,7 +1242,7 @@
             // 
             this.lctW5Label.AutoSize = true;
             this.lctW5Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctW5Label.Location = new System.Drawing.Point(368, 97);
+            this.lctW5Label.Location = new System.Drawing.Point(368, 85);
             this.lctW5Label.Name = "lctW5Label";
             this.lctW5Label.Size = new System.Drawing.Size(45, 15);
             this.lctW5Label.TabIndex = 35;
@@ -1252,7 +1252,7 @@
             // 
             this.lctW6Label.AutoSize = true;
             this.lctW6Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctW6Label.Location = new System.Drawing.Point(368, 115);
+            this.lctW6Label.Location = new System.Drawing.Point(368, 103);
             this.lctW6Label.Name = "lctW6Label";
             this.lctW6Label.Size = new System.Drawing.Size(45, 15);
             this.lctW6Label.TabIndex = 36;
@@ -1262,7 +1262,7 @@
             // 
             this.lctWResult.AutoSize = true;
             this.lctWResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctWResult.Location = new System.Drawing.Point(470, 104);
+            this.lctWResult.Location = new System.Drawing.Point(470, 92);
             this.lctWResult.Name = "lctWResult";
             this.lctWResult.Size = new System.Drawing.Size(45, 15);
             this.lctWResult.TabIndex = 29;
@@ -1279,7 +1279,7 @@
             this.qctCPanel.Controls.Add(this.pictureBox37);
             this.qctCPanel.Controls.Add(this.label11);
             this.qctCPanel.Controls.Add(this.pictureBox36);
-            this.qctCPanel.Location = new System.Drawing.Point(1019, 123);
+            this.qctCPanel.Location = new System.Drawing.Point(238, 123);
             this.qctCPanel.Name = "qctCPanel";
             this.qctCPanel.Size = new System.Drawing.Size(495, 127);
             this.qctCPanel.TabIndex = 89;
@@ -1376,7 +1376,7 @@
             this.pctCPanel.Controls.Add(this.pictureBox40);
             this.pctCPanel.Controls.Add(this.pictureBox39);
             this.pctCPanel.Controls.Add(this.pictureBox41);
-            this.pctCPanel.Location = new System.Drawing.Point(1019, 256);
+            this.pctCPanel.Location = new System.Drawing.Point(238, 256);
             this.pctCPanel.Name = "pctCPanel";
             this.pctCPanel.Size = new System.Drawing.Size(495, 103);
             this.pctCPanel.TabIndex = 90;
@@ -1471,7 +1471,7 @@
             this.mtcCPanel.Controls.Add(this.pictureBox43);
             this.mtcCPanel.Controls.Add(this.label13);
             this.mtcCPanel.Controls.Add(this.pictureBox42);
-            this.mtcCPanel.Location = new System.Drawing.Point(1019, 365);
+            this.mtcCPanel.Location = new System.Drawing.Point(238, 365);
             this.mtcCPanel.Name = "mtcCPanel";
             this.mtcCPanel.Size = new System.Drawing.Size(495, 100);
             this.mtcCPanel.TabIndex = 91;
@@ -1540,7 +1540,7 @@
             // fctCPanel
             // 
             this.fctCPanel.BackColor = System.Drawing.Color.White;
-            this.fctCPanel.Controls.Add(this.label15);
+            this.fctCPanel.Controls.Add(this.fctCResult);
             this.fctCPanel.Controls.Add(this.fctC4Label);
             this.fctCPanel.Controls.Add(this.fctC3Label);
             this.fctCPanel.Controls.Add(this.fctC2Label);
@@ -1548,7 +1548,7 @@
             this.fctCPanel.Controls.Add(this.pictureBox44);
             this.fctCPanel.Controls.Add(this.pictureBox45);
             this.fctCPanel.Controls.Add(this.label14);
-            this.fctCPanel.Location = new System.Drawing.Point(1019, 472);
+            this.fctCPanel.Location = new System.Drawing.Point(238, 472);
             this.fctCPanel.Name = "fctCPanel";
             this.fctCPanel.Size = new System.Drawing.Size(494, 103);
             this.fctCPanel.TabIndex = 92;
@@ -1624,30 +1624,30 @@
             this.fctC4Label.TabIndex = 27;
             this.fctC4Label.Text = "label5";
             // 
-            // label15
+            // fctCResult
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label15.Location = new System.Drawing.Point(400, 66);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(45, 15);
-            this.label15.TabIndex = 20;
-            this.label15.Text = "label5";
+            this.fctCResult.AutoSize = true;
+            this.fctCResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fctCResult.Location = new System.Drawing.Point(400, 66);
+            this.fctCResult.Name = "fctCResult";
+            this.fctCResult.Size = new System.Drawing.Size(45, 15);
+            this.fctCResult.TabIndex = 20;
+            this.fctCResult.Text = "label5";
             // 
             // lctCPanel
             // 
             this.lctCPanel.BackColor = System.Drawing.Color.White;
-            this.lctCPanel.Controls.Add(this.lctCResult);
-            this.lctCPanel.Controls.Add(this.lctC2Label);
-            this.lctCPanel.Controls.Add(this.lctC1Label);
-            this.lctCPanel.Controls.Add(this.pictureBox48);
             this.lctCPanel.Controls.Add(this.lctCzLabel);
             this.lctCPanel.Controls.Add(this.pictureBox47);
             this.lctCPanel.Controls.Add(this.label16);
             this.lctCPanel.Controls.Add(this.pictureBox46);
-            this.lctCPanel.Location = new System.Drawing.Point(1019, 595);
+            this.lctCPanel.Controls.Add(this.lctCResult);
+            this.lctCPanel.Controls.Add(this.lctC2Label);
+            this.lctCPanel.Controls.Add(this.lctC1Label);
+            this.lctCPanel.Controls.Add(this.pictureBox48);
+            this.lctCPanel.Location = new System.Drawing.Point(238, 595);
             this.lctCPanel.Name = "lctCPanel";
-            this.lctCPanel.Size = new System.Drawing.Size(490, 162);
+            this.lctCPanel.Size = new System.Drawing.Size(490, 131);
             this.lctCPanel.TabIndex = 93;
             this.lctCPanel.Visible = false;
             // 
@@ -1694,7 +1694,7 @@
             // pictureBox48
             // 
             this.pictureBox48.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox48.Image")));
-            this.pictureBox48.Location = new System.Drawing.Point(3, 95);
+            this.pictureBox48.Location = new System.Drawing.Point(3, 76);
             this.pictureBox48.Name = "pictureBox48";
             this.pictureBox48.Size = new System.Drawing.Size(256, 55);
             this.pictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1705,7 +1705,7 @@
             // 
             this.lctC1Label.AutoSize = true;
             this.lctC1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctC1Label.Location = new System.Drawing.Point(99, 105);
+            this.lctC1Label.Location = new System.Drawing.Point(99, 86);
             this.lctC1Label.Name = "lctC1Label";
             this.lctC1Label.Size = new System.Drawing.Size(45, 15);
             this.lctC1Label.TabIndex = 30;
@@ -1715,7 +1715,7 @@
             // 
             this.lctC2Label.AutoSize = true;
             this.lctC2Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctC2Label.Location = new System.Drawing.Point(99, 128);
+            this.lctC2Label.Location = new System.Drawing.Point(99, 109);
             this.lctC2Label.Name = "lctC2Label";
             this.lctC2Label.Size = new System.Drawing.Size(45, 15);
             this.lctC2Label.TabIndex = 31;
@@ -1725,7 +1725,7 @@
             // 
             this.lctCResult.AutoSize = true;
             this.lctCResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctCResult.Location = new System.Drawing.Point(244, 116);
+            this.lctCResult.Location = new System.Drawing.Point(244, 97);
             this.lctCResult.Name = "lctCResult";
             this.lctCResult.Size = new System.Drawing.Size(45, 15);
             this.lctCResult.TabIndex = 23;
@@ -1735,7 +1735,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1572, 775);
+            this.ClientSize = new System.Drawing.Size(1572, 729);
             this.Controls.Add(this.lctCPanel);
             this.Controls.Add(this.fctCPanel);
             this.Controls.Add(this.mtcCPanel);
@@ -1991,7 +1991,7 @@
         private System.Windows.Forms.PictureBox pictureBox42;
         private System.Windows.Forms.Panel fctCPanel;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label fctCResult;
         private System.Windows.Forms.Label fctC4Label;
         private System.Windows.Forms.Label fctC3Label;
         private System.Windows.Forms.Label fctC2Label;
