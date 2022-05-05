@@ -22,7 +22,7 @@ namespace flab1
             double lamd = 0, t = 0;
             try
             {
-                lamd = Convert.ToDouble(lambdaBox.Text);
+                lamd = getLamda();
                 t = Convert.ToDouble(timeBox.Text);
             }
             catch (FormatException)
@@ -41,7 +41,7 @@ namespace flab1
             double lamd, t;
             try
             {
-                lamd = Convert.ToDouble(lambdaBox.Text);
+                lamd = getLamda();
                 t = Convert.ToDouble(timeBox.Text);
             }
             catch (FormatException)
@@ -56,11 +56,116 @@ namespace flab1
             return true;
         }
 
-        private bool calcL() //Расчет лямбы по среднему времени безотказной работы
+        private double getLamda()
+        {
+            if (lambdaBox.Text.Length > 0) return Convert.ToDouble(lambdaBox.Text);
+
+            if(mtBox.Text.Length>0)
+            {
+                double mt = Convert.ToDouble(mtBox.Text);
+                lmPanel.Visible = calcL();
+                return 1 / mt;
+            }
+            if(mt1Box.Text.Length>0)
+            {
+                TextBox[] mts = new TextBox[] {mt1Box, mt2Box, mt3Box, mt4Box, mt5Box};
+                double res = 0;
+                for(int i=0; i<mts.Length; ++i)
+                {
+                    if (mts[i].Text.Length > 0)
+                    {
+                        res += 1 / Convert.ToDouble(mts[i].Text);
+                    }
+                }
+                lamMiPanel.Visible = true;
+                lamMiResult.Text = res.ToString("N5");
+                return res;
+            }
+            if(lamiBox.Text.Length > 0)
+            {
+                double lami = Convert.ToDouble(lamiBox.Text);
+                int n = Convert.ToInt32(nBox.Text);
+                double res = lami * n;
+                lamiResult.Text = res.ToString("N5");
+                lamiPanel.Visible = true;
+                return res;
+            }
+            if(pcBox.Text.Length>0)
+            {
+                double t = Convert.ToDouble(timeBox.Text);
+                double res = getPc();
+                res = -Math.Log(res) / t;
+                lamPcPanel.Visible = true;
+                lamPcResult.Text = res.ToString("N5");
+                return res;
+            }
+            if(p1Box.Text.Length>0)
+            {
+                double res = getPc();
+                double t = Convert.ToDouble(timeBox.Text);
+
+                res = -Math.Log(res) / t;
+                lamPcPanel.Visible = true;
+                lamPcResult.Text = res.ToString("N5");
+                return res;
+            }
+            throw new FormatException();
+        }
+
+
+        private double getPc()
+        {
+            if (pcBox.Text.Length > 0) return Convert.ToDouble(pcBox.Text);
+            if (pcBox.Text.Length > 0)
+            {
+                double t = Convert.ToDouble(timeBox.Text);
+                double res = Convert.ToDouble(pcBox.Text);
+                res = -Math.Log(res) / t;
+                lamPcPanel.Visible = true;
+                lamPcResult.Text = res.ToString("N5");
+                return res;
+            }
+            if (p1Box.Text.Length > 0)
+            {
+                TextBox[] pis = new TextBox[] { p1Box, p2Box, p3Box, p4Box, p5Box };
+                double res = 1;
+                foreach (TextBox p in pis)
+                {
+                    if (p.Text.Length > 0) res *= Convert.ToDouble(p.Text);
+                }
+                pcPiPanel.Visible = true;
+                pcPiResult.Text = res.ToString("N5");
+                return res;
+            }
+            if(pBox.Text.Length > 0)
+            {
+                double res = Convert.ToDouble(pBox.Text);
+                int n = Convert.ToInt32(nBox.Text);
+                res = Math.Pow(res, n);
+                pcPnPanel.Visible = true;
+                pcPnResult.Text = res.ToString("N5");
+                return res;
+            }
+            if(calcPt())
+            {
+                double l = getLamda();
+                double t = Convert.ToDouble(timeBox.Text);
+                double res = Math.Exp(-l * t);
+                return res;
+            }
+            throw new FormatException();
+        }
+
+        private bool calcL() //Расчет лямбы
         {
             double m;
             try
             {
+                if (mtBox.Text.Length == 0)
+                {
+                    getLamda();
+                    return false;
+                }
                 m = Convert.ToDouble(mtBox.Text);
             }
             catch (FormatException)
@@ -79,7 +184,7 @@ namespace flab1
             double lamd;
             try
             {
-                lamd = Convert.ToDouble(lambdaBox.Text);
+                lamd = getLamda();
             }
             catch (FormatException)
             {
@@ -97,7 +202,7 @@ namespace flab1
             double lamd = 0, t = 0;
             try
             {
-                lamd = Convert.ToDouble(lambdaBox.Text);
+                lamd = getLamda();
                 t = Convert.ToDouble(timeBox.Text);
             }
             catch (FormatException)
@@ -105,24 +210,50 @@ namespace flab1
                 MessageBox.Show("Введите правильные значения для расчета q(t)", "ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
-            double res = Math.Exp(-lamd * t);
+            double res = 1 - Math.Exp(-lamd * t);
             q1Label.Text = "-" + lamd.ToString("N3") + "*" + t.ToString("N3");
             qResult.Text = res.ToString("N5");
             return true;
         }
         private bool calcNormPt() //Расчет P(t). Вероятности безотказной работы системы за t секунд
         {
+            if(pBox.Text.Length>0)
+            {
+                try
+                {
+                    getPc();
+                } catch(FormatException) { }
+                return false;
+            }
+            if(p1Box.Text.Length>0)
+            {
+                try
+                {
+                    getLamda();
+                } catch(FormatException) { }
+                return false;
+            }
+            if(l1Box.Text.Length==0)
+            {
+                ptPanel.Visible = calcPt();
+                return false;
+            }
             double[] lamd = new double[3];
             double[] lT = new double[3];
             double t = 0;
             try
             {
-                lamd[0] = Convert.ToDouble(l1Box.Text);
-                lamd[1] = Convert.ToDouble(l2Box.Text);
-                lamd[2] = Convert.ToDouble(l3Box.Text);
-                lT[0] = Convert.ToDouble(l1tBox.Text);
-                lT[1] = Convert.ToDouble(l2tBox.Text);
-                lT[2] = Convert.ToDouble(l3tBox.Text);
+                TextBox[] lbs = new TextBox[] { l1Box, l2Box, l3Box };
+                TextBox[] tbs = new TextBox[] { l1tBox, l2tBox, l3tBox };
+                for(int i=0; i<3; ++i)
+                {
+                    if (lbs[i].Text.Length > 0)
+                    {
+                        lamd[i] = Convert.ToDouble(lbs[i].Text);
+                        lT[i] = Convert.ToDouble(tbs[i].Text);
+                    }
+                    else lamd[i] = 0.0;
+                }
                 t = Convert.ToDouble(timeBox.Text);
             }
             catch (FormatException)
@@ -135,48 +266,79 @@ namespace flab1
             {
                 l[i] = lamd[i] * Math.Pow(t, lT[i] + 1) / (lT[i] + 1);
             }
-            norm1Label.Text = l[0].ToString("N3") + "-" + l[1].ToString("N3") + "-" + l[2].ToString("N3");
+            norm1Label.Text = l[0].ToString("N3");
+            for(int i=1; i<3; ++i)
+            {
+                if (lamd[i] > 0)
+                    norm1Label.Text += "-" + l[i].ToString("N3");
+            }
             double res = Math.Exp(-l[0]-l[1]-l[2]);
             normResult.Text = res.ToString("N5");
+            normPtPanel.Visible = true;
             return true;
         }
+
+        private bool calcPit()
+        {
+            double p = 0;
+            int n;
+            try
+            {
+                p = getPc();
+                n = Convert.ToInt32(nBox.Text);
+            } catch(FormatException)
+            {
+                return false;
+            }
+            double res = Math.Pow(p, 1.0/ n);
+            pitResult.Text = res.ToString("N5");
+            return true;
+        }
+
 
         private void Button1_Click(object sender, EventArgs e)
         {
             ptPanel.Visible = false;
+            ftPanel.Visible = false;
+            lmPanel.Visible = false;
+            mPanel.Visible = false;
+            qPanel.Visible = false;
+            lamiPanel.Visible = false;
+            lamMiPanel.Visible = false;
+            normPtPanel.Visible = false;
+            lamPcPanel.Visible = false;
+            pcPiPanel.Visible = false;
+            pcPnPanel.Visible = false;
+            pitPanel.Visible = false;
+
             if (ptCheckBox.Checked)
             {
-                ptPanel.Visible = calcPt();
+                pitPanel.Visible = calcPit();
             }
 
-            ftPanel.Visible = false;
             if (ftCheckBox.Checked)
             {
                 ftPanel.Visible = calcFt();
             }
 
-            lmPanel.Visible = false;
             if(lmCheckBox.Checked)
             {
                 lmPanel.Visible = calcL();
             }
 
-            mPanel.Visible = false;
             if(mCheckBox.Checked)
             {
                 mPanel.Visible = calcM();
             }
 
-            qPanel.Visible = false;
             if(qCheckBox.Checked)
             {
                 qPanel.Visible = calcQ();
             }
 
-            normPtPanel.Visible = false;
-            if(normPCheckBox.Checked)
+            if(PctCheckBox.Checked)
             {
-                normPtPanel.Visible = calcNormPt();
+                calcNormPt();
             }
         }
     }

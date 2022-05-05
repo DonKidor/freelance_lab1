@@ -63,10 +63,6 @@
             this.l0mnLabel = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.lam0lCheckBox = new System.Windows.Forms.CheckBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.lam0lPanel = new System.Windows.Forms.Panel();
             this.l0lResult = new System.Windows.Forms.Label();
             this.l0l1Label = new System.Windows.Forms.Label();
@@ -104,6 +100,17 @@
             this.lctfLabel = new System.Windows.Forms.Label();
             this.pictureBox26 = new System.Windows.Forms.PictureBox();
             this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.pictureBox29 = new System.Windows.Forms.PictureBox();
+            this.l3Box = new System.Windows.Forms.TextBox();
+            this.l2Box = new System.Windows.Forms.TextBox();
+            this.l1Box = new System.Windows.Forms.TextBox();
+            this.l0LiPanel = new System.Windows.Forms.Panel();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.l0LiResult = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -116,9 +123,6 @@
             this.lam0mPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.lam0lPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
@@ -137,6 +141,12 @@
             this.lctPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
+            this.l0LiPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -217,6 +227,7 @@
             this.nBox.Name = "nBox";
             this.nBox.Size = new System.Drawing.Size(100, 20);
             this.nBox.TabIndex = 21;
+            this.nBox.Text = "1";
             // 
             // label2
             // 
@@ -414,7 +425,7 @@
             this.lam0mPanel.Controls.Add(this.pictureBox10);
             this.lam0mPanel.Location = new System.Drawing.Point(249, 41);
             this.lam0mPanel.Name = "lam0mPanel";
-            this.lam0mPanel.Size = new System.Drawing.Size(489, 62);
+            this.lam0mPanel.Size = new System.Drawing.Size(391, 62);
             this.lam0mPanel.TabIndex = 41;
             this.lam0mPanel.Visible = false;
             // 
@@ -468,46 +479,6 @@
             this.pictureBox10.TabIndex = 0;
             this.pictureBox10.TabStop = false;
             // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(122, 405);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(28, 29);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 44;
-            this.pictureBox12.TabStop = false;
-            // 
-            // lam0lCheckBox
-            // 
-            this.lam0lCheckBox.AutoSize = true;
-            this.lam0lCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lam0lCheckBox.Location = new System.Drawing.Point(107, 413);
-            this.lam0lCheckBox.Name = "lam0lCheckBox";
-            this.lam0lCheckBox.Size = new System.Drawing.Size(15, 14);
-            this.lam0lCheckBox.TabIndex = 43;
-            this.lam0lCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(151, 405);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(36, 29);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox13.TabIndex = 46;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(50, 405);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(47, 29);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox14.TabIndex = 47;
-            this.pictureBox14.TabStop = false;
-            // 
             // lam0lPanel
             // 
             this.lam0lPanel.BackColor = System.Drawing.Color.White;
@@ -517,7 +488,7 @@
             this.lam0lPanel.Controls.Add(this.pictureBox15);
             this.lam0lPanel.Location = new System.Drawing.Point(249, 108);
             this.lam0lPanel.Name = "lam0lPanel";
-            this.lam0lPanel.Size = new System.Drawing.Size(489, 50);
+            this.lam0lPanel.Size = new System.Drawing.Size(424, 50);
             this.lam0lPanel.TabIndex = 48;
             this.lam0lPanel.Visible = false;
             // 
@@ -903,21 +874,128 @@
             this.pictureBox25.TabIndex = 23;
             this.pictureBox25.TabStop = false;
             // 
+            // pictureBox27
+            // 
+            this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
+            this.pictureBox27.Location = new System.Drawing.Point(19, 257);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(28, 27);
+            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox27.TabIndex = 59;
+            this.pictureBox27.TabStop = false;
+            // 
+            // pictureBox28
+            // 
+            this.pictureBox28.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox28.Image")));
+            this.pictureBox28.Location = new System.Drawing.Point(19, 232);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(28, 27);
+            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox28.TabIndex = 58;
+            this.pictureBox28.TabStop = false;
+            // 
+            // pictureBox29
+            // 
+            this.pictureBox29.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox29.Image")));
+            this.pictureBox29.Location = new System.Drawing.Point(19, 204);
+            this.pictureBox29.Name = "pictureBox29";
+            this.pictureBox29.Size = new System.Drawing.Size(28, 27);
+            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox29.TabIndex = 57;
+            this.pictureBox29.TabStop = false;
+            // 
+            // l3Box
+            // 
+            this.l3Box.Location = new System.Drawing.Point(59, 259);
+            this.l3Box.Name = "l3Box";
+            this.l3Box.Size = new System.Drawing.Size(100, 20);
+            this.l3Box.TabIndex = 56;
+            // 
+            // l2Box
+            // 
+            this.l2Box.Location = new System.Drawing.Point(60, 233);
+            this.l2Box.Name = "l2Box";
+            this.l2Box.Size = new System.Drawing.Size(99, 20);
+            this.l2Box.TabIndex = 55;
+            // 
+            // l1Box
+            // 
+            this.l1Box.Location = new System.Drawing.Point(59, 207);
+            this.l1Box.Name = "l1Box";
+            this.l1Box.Size = new System.Drawing.Size(100, 20);
+            this.l1Box.TabIndex = 54;
+            // 
+            // l0LiPanel
+            // 
+            this.l0LiPanel.BackColor = System.Drawing.Color.White;
+            this.l0LiPanel.Controls.Add(this.label6);
+            this.l0LiPanel.Controls.Add(this.l0LiResult);
+            this.l0LiPanel.Controls.Add(this.pictureBox13);
+            this.l0LiPanel.Controls.Add(this.pictureBox12);
+            this.l0LiPanel.Location = new System.Drawing.Point(646, 41);
+            this.l0LiPanel.Name = "l0LiPanel";
+            this.l0LiPanel.Size = new System.Drawing.Size(294, 62);
+            this.l0LiPanel.TabIndex = 60;
+            this.l0LiPanel.Visible = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(0, 2);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(103, 61);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox12.TabIndex = 5;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
+            this.pictureBox13.Location = new System.Drawing.Point(111, 16);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(23, 30);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox13.TabIndex = 6;
+            this.pictureBox13.TabStop = false;
+            // 
+            // l0LiResult
+            // 
+            this.l0LiResult.AutoSize = true;
+            this.l0LiResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.l0LiResult.Location = new System.Drawing.Point(151, 23);
+            this.l0LiResult.Name = "l0LiResult";
+            this.l0LiResult.Size = new System.Drawing.Size(45, 15);
+            this.l0LiResult.TabIndex = 7;
+            this.l0LiResult.Text = "label5";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.Location = new System.Drawing.Point(136, 22);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(18, 19);
+            this.label6.TabIndex = 20;
+            this.label6.Text = "=";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(966, 650);
+            this.Controls.Add(this.l0LiPanel);
+            this.Controls.Add(this.pictureBox27);
+            this.Controls.Add(this.pictureBox28);
+            this.Controls.Add(this.pictureBox29);
+            this.Controls.Add(this.l3Box);
+            this.Controls.Add(this.l2Box);
+            this.Controls.Add(this.l1Box);
             this.Controls.Add(this.lctPanel);
             this.Controls.Add(this.qctPanel);
             this.Controls.Add(this.fctPanel);
             this.Controls.Add(this.mtcPanel);
             this.Controls.Add(this.pctPanel);
             this.Controls.Add(this.lam0lPanel);
-            this.Controls.Add(this.pictureBox14);
-            this.Controls.Add(this.pictureBox13);
-            this.Controls.Add(this.pictureBox12);
-            this.Controls.Add(this.lam0lCheckBox);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.lam0mPanel);
             this.Controls.Add(this.label4);
@@ -963,9 +1041,6 @@
             this.lam0mPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.lam0lPanel.ResumeLayout(false);
             this.lam0lPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
@@ -990,6 +1065,13 @@
             this.lctPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
+            this.l0LiPanel.ResumeLayout(false);
+            this.l0LiPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1031,10 +1113,6 @@
         private System.Windows.Forms.Label l0mnLabel;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.CheckBox lam0lCheckBox;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.Panel lam0lPanel;
         private System.Windows.Forms.Label l0lResult;
         private System.Windows.Forms.Label l0l1Label;
@@ -1072,5 +1150,16 @@
         private System.Windows.Forms.Label lctfLabel;
         private System.Windows.Forms.PictureBox pictureBox26;
         private System.Windows.Forms.PictureBox pictureBox25;
+        private System.Windows.Forms.PictureBox pictureBox27;
+        private System.Windows.Forms.PictureBox pictureBox28;
+        private System.Windows.Forms.PictureBox pictureBox29;
+        private System.Windows.Forms.TextBox l3Box;
+        private System.Windows.Forms.TextBox l2Box;
+        private System.Windows.Forms.TextBox l1Box;
+        private System.Windows.Forms.Panel l0LiPanel;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label l0LiResult;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox pictureBox12;
     }
 }

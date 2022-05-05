@@ -16,6 +16,93 @@ namespace flab1
         {
             InitializeComponent();
         }
+
+        private double getCP(double l, double t, int m)
+        {
+            double res = Math.Exp(-l * t);
+            double z = calcZC(l, t, m);
+            res *= z;
+            return res;
+        }
+
+        private double getWP(double l, double t, int m, double l1)
+        {
+            double z = calcZai(l, l1, m, t);
+            pctWzLabel.Text = z.ToString("N3");
+
+            double res = Math.Exp(-l * t) * (1 + z);
+
+            return res;
+        }
+
+        private double getLamda()
+        {
+            if (lambdaBox.Text.Length > 0) return Convert.ToDouble(lambdaBox.Text);
+            if(lamiBox.Text.Length>0)
+            {
+                if(calcL0l())
+                {
+                    lam0lPanel.Visible = true;
+                    double l = Convert.ToDouble(lamiBox.Text);
+                    int n = Convert.ToInt32(nBox.Text);
+                    double res = l*n;
+                    return res;
+                }
+            }
+            if(mtiBox.Text.Length>0)
+            {
+                if(calcL0m())
+                {
+                    lam0mPanel.Visible = true;
+                    double m = Convert.ToDouble(mtiBox.Text);
+                    int n = Convert.ToInt32(nBox.Text);
+                    double res = n / m;
+                    return res;
+                }
+            }
+            if(pBox.Text.Length>0 && timeBox.Text.Length>0)
+            {
+                double l1 = Convert.ToDouble(lam1Box.Text);
+                double p = Convert.ToDouble(pBox.Text);
+                double t = Convert.ToDouble(timeBox.Text);
+                int m = Convert.ToInt32(mBox.Text);
+                if (l1 == 0)
+                {
+                    double L = 0;
+                    double R = 1;
+                    int count = 100;
+                    while (R - L > 0.000001 && count > 0)
+                    {
+                        count--;
+                        double mid = (L + R) / 2;
+                        double pt = getCP(mid, t, m);
+                        if (pt > p) L = mid;
+                        else R = mid;
+                    }
+                    lam0PcPanel.Visible = true;
+                    lam0PcResult.Text = L.ToString("N5");
+                    return L;
+                } else
+                {
+                    double L = 0;
+                    double R = 1;
+                    int count = 100;
+                    while (R - L > 0.000001 && count > 0)
+                    {
+                        count--;
+                        double mid = (L + R) / 2;
+                        double pt = getWP(mid, t, m, l1);
+                        if (pt > p) L = mid;
+                        else R = mid;
+                    }
+                    lam0PWPanel.Visible = true;
+                    lam0PWResult.Text = L.ToString("N5");
+
+                    return L;
+                }
+            }
+            throw new FormatException();
+        }
         private bool calcL0m()
         {
             double m;
@@ -92,7 +179,7 @@ namespace flab1
             try
             {
                 m = Convert.ToInt32(mBox.Text);
-                l0 = Convert.ToDouble(lambdaBox.Text);
+                l0 = getLamda();
                 t = Convert.ToDouble(timeBox.Text);
             } catch(FormatException)
             {
@@ -105,7 +192,7 @@ namespace flab1
             qctW1Label.Text = l0.ToString("N3") + "*" + t.ToString("N3");
             qctW2Label.Text = z.ToString("N3");
             double res = 1 - (Math.Exp(-l0 * t) * (1 + z));
-            qctWResult.Text = res.ToString("N5");
+            qctWResult.Text = res.ToString("N7");
             return true;
         }
 
@@ -116,7 +203,7 @@ namespace flab1
             try
             {
                 m = Convert.ToInt32(mBox.Text);
-                l0 = Convert.ToDouble(lambdaBox.Text);
+                l0 = getLamda();
                 t = Convert.ToDouble(timeBox.Text);
             }
             catch (FormatException)
@@ -129,7 +216,7 @@ namespace flab1
             qtcC1Label.Text = l0.ToString("N3") + "*" + t.ToString("N3");
             qtcC2Label.Text = z.ToString("N3");
             double res = 1 - (Math.Exp(-l0 * t) * z);
-            qtcCResult.Text = res.ToString("N5");
+            qtcCResult.Text = res.ToString("N7");
 
             return true;
         }
@@ -141,12 +228,12 @@ namespace flab1
             try
             {
                 m = Convert.ToInt32(mBox.Text);
-                l0 = Convert.ToDouble(lambdaBox.Text);
+                l0 = getLamda();
                 t = Convert.ToDouble(timeBox.Text);
             }
             catch (FormatException)
             {
-                MessageBox.Show("Введите правильные значения для расчета Pct в теплом резерве", "ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Введите правильные значения для расчета Pct в ненагруженном резерве", "ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
             double z = calcZC(l0, t, m);
@@ -155,7 +242,7 @@ namespace flab1
             double res = Math.Exp(-l0 * t) * z;
             pctC1Label.Text = l0.ToString("N3") + "*" + t.ToString("N3");
             pctC2Label.Text = z.ToString("N3");
-            pctCResult.Text = res.ToString("N5");
+            pctCResult.Text = res.ToString("N7");
             return true;
         }
 
@@ -166,12 +253,12 @@ namespace flab1
             try
             {
                 m = Convert.ToInt32(mBox.Text);
-                l0 = Convert.ToDouble(lambdaBox.Text);
+                l0 = getLamda();
                 t = Convert.ToDouble(timeBox.Text);
             }
             catch (FormatException)
             {
-                MessageBox.Show("Введите правильные значения для расчета Pct в ненагруженном резерве", "ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Введите правильные значения для расчета Pct в теплом резерве", "ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
 
@@ -180,9 +267,9 @@ namespace flab1
 
             double res = Math.Exp(-l0 * t) * (1 + z);
 
-            pctW1Label.Text = l0.ToString("N3") + "*" + t.ToString("N3");
+            pctW1Label.Text = l0.ToString("N4") + "*" + t.ToString("N3");
             pctW2Label.Text = z.ToString("N3");
-            pctWResult.Text = res.ToString("N5");
+            pctWResult.Text = res.ToString("N7");
             return true;
         }
 
@@ -193,7 +280,7 @@ namespace flab1
             try
             {
                 m = Convert.ToInt32(mBox.Text);
-                l0 = Convert.ToDouble(lambdaBox.Text);
+                l0 = getLamda();
             }
             catch (FormatException)
             {
@@ -212,7 +299,7 @@ namespace flab1
             mtcW2Label.Text = l0.ToString("N3");
             mtcWzLabel.Text = z.ToString("N3");
             double res = z / l0;
-            mtcWResult.Text = res.ToString("N5");
+            mtcWResult.Text = res.ToString("N7");
             return true;
         }
         private bool calcCMtc()
@@ -222,7 +309,7 @@ namespace flab1
             try
             {
                 m = Convert.ToInt32(mBox.Text);
-                l0 = Convert.ToDouble(lambdaBox.Text);
+                l0 = getLamda();
             }
             catch (FormatException)
             {
@@ -232,7 +319,7 @@ namespace flab1
             mtcC1Label.Text = (m + 1).ToString("N3");
             mtcC2Label.Text = l0.ToString("N3");
             double res = (m + 1) / l0;
-            mtcCResult.Text = res.ToString("N5");
+            mtcCResult.Text = res.ToString("N7");
             return true;
         }
 
@@ -243,7 +330,7 @@ namespace flab1
             try
             {
                 m = Convert.ToInt32(mBox.Text);
-                l0 = Convert.ToDouble(lambdaBox.Text);
+                l0 = getLamda();
                 t = Convert.ToDouble(timeBox.Text);
             }
             catch (FormatException)
@@ -270,7 +357,7 @@ namespace flab1
             fctW2Label.Text = l0.ToString("N3") + "*" + t.ToString("N3");
             fctW3Label.Text = b.ToString("N3");
             double res = l0 * Math.Exp(-l0 * t) * b;
-            fctWResult.Text = res.ToString("N5");
+            fctWResult.Text = res.ToString("N7");
             return true;
         }
 
@@ -281,7 +368,7 @@ namespace flab1
             try
             {
                 m = Convert.ToInt32(mBox.Text);
-                l0 = Convert.ToDouble(lambdaBox.Text);
+                l0 = getLamda();
                 t = Convert.ToDouble(timeBox.Text);
             }
             catch (FormatException)
@@ -299,7 +386,7 @@ namespace flab1
             fctC3Label.Text = Math.Pow(t, m).ToString("N3");
             fctC4Label.Text = l0.ToString("N3") + "*" + t.ToString("N3");
             double res = (a / mf) * c;
-            fctCResult.Text = res.ToString("N5");
+            fctCResult.Text = res.ToString("N7");
             return true;
         }
 
@@ -310,7 +397,7 @@ namespace flab1
             try
             {
                 m = Convert.ToInt32(mBox.Text);
-                l0 = Convert.ToDouble(lambdaBox.Text);
+                l0 = getLamda();
                 t = Convert.ToDouble(timeBox.Text);
             }
             catch (FormatException)
@@ -338,7 +425,7 @@ namespace flab1
             lctW4Label.Text = l1.ToString("N3") + "*" + t.ToString("N3");
             lctW5Label.Text = z2.ToString("N3");
             lctW6Label.Text = (1 + z).ToString("N3");
-            lctWResult.Text = res.ToString("N5");
+            lctWResult.Text = res.ToString("N7");
 
             return true;
         }
@@ -350,7 +437,7 @@ namespace flab1
             try
             {
                 m = Convert.ToInt32(mBox.Text);
-                l0 = Convert.ToDouble(lambdaBox.Text);
+                l0 = getLamda();
                 t = Convert.ToDouble(timeBox.Text);
             }
             catch (FormatException)
@@ -368,7 +455,7 @@ namespace flab1
             lctC2Label.Text = b.ToString("N3");
             lctCzLabel.Text = z.ToString("N3");
             double res = a / b;
-            lctCResult.Text = res.ToString("N5");
+            lctCResult.Text = res.ToString("N7");
             return true;
         }
         private void Button1_Click(object sender, EventArgs e)
@@ -382,14 +469,15 @@ namespace flab1
             lam0mPanel.Visible = false;
             if (lam0mCheckBox.Checked)
             {
-                lam0mPanel.Visible = calcL0m();
+                try
+                {
+                    getLamda();
+                } catch(FormatException) { }
+                
             }
-
+            lam0PcPanel.Visible = false;
+            lam0PWPanel.Visible = false;
             lam0lPanel.Visible = false;
-            if (lam0lCheckBox.Checked)
-            {
-                lam0lPanel.Visible = calcL0l();
-            }
 
             qctCPanel.Visible = false;
             qctWPanel.Visible = false;

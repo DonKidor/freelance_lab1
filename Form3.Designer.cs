@@ -29,10 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.lam0lCheckBox = new System.Windows.Forms.CheckBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.mtcCheckBox = new System.Windows.Forms.CheckBox();
@@ -75,106 +71,113 @@
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.qctWPanel = new System.Windows.Forms.Panel();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.qctWzLabel = new System.Windows.Forms.Label();
-            this.qctW1Label = new System.Windows.Forms.Label();
-            this.qctW2Label = new System.Windows.Forms.Label();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.qctWResult = new System.Windows.Forms.Label();
+            this.qctW2Label = new System.Windows.Forms.Label();
+            this.qctW1Label = new System.Windows.Forms.Label();
+            this.qctWzLabel = new System.Windows.Forms.Label();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.pctWPanel = new System.Windows.Forms.Panel();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pctWzLabel = new System.Windows.Forms.Label();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.pctW1Label = new System.Windows.Forms.Label();
-            this.pctW2Label = new System.Windows.Forms.Label();
-            this.pctWResult = new System.Windows.Forms.Label();
-            this.mtcWPanel = new System.Windows.Forms.Panel();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
-            this.pictureBox27 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.mtcWkLabel = new System.Windows.Forms.Label();
-            this.pictureBox28 = new System.Windows.Forms.PictureBox();
-            this.mtcWzLabel = new System.Windows.Forms.Label();
-            this.pictureBox29 = new System.Windows.Forms.PictureBox();
-            this.mtcW2Label = new System.Windows.Forms.Label();
-            this.mtcW1Label = new System.Windows.Forms.Label();
-            this.mtcWResult = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.pctWResult = new System.Windows.Forms.Label();
+            this.pctW2Label = new System.Windows.Forms.Label();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.pctWzLabel = new System.Windows.Forms.Label();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.mtcWPanel = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.mtcWResult = new System.Windows.Forms.Label();
+            this.mtcW1Label = new System.Windows.Forms.Label();
+            this.mtcW2Label = new System.Windows.Forms.Label();
+            this.pictureBox29 = new System.Windows.Forms.PictureBox();
+            this.mtcWzLabel = new System.Windows.Forms.Label();
+            this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.mtcWkLabel = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
             this.fctWPanel = new System.Windows.Forms.Panel();
-            this.pictureBox30 = new System.Windows.Forms.PictureBox();
-            this.pictureBox31 = new System.Windows.Forms.PictureBox();
-            this.pictureBox32 = new System.Windows.Forms.PictureBox();
-            this.fctWzLabel = new System.Windows.Forms.Label();
-            this.fctW1Label = new System.Windows.Forms.Label();
-            this.fctW2Label = new System.Windows.Forms.Label();
-            this.fctW3Label = new System.Windows.Forms.Label();
-            this.fctWResult = new System.Windows.Forms.Label();
-            this.lctWPanel = new System.Windows.Forms.Panel();
-            this.pictureBox33 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.lctWzLabel = new System.Windows.Forms.Label();
-            this.pictureBox34 = new System.Windows.Forms.PictureBox();
-            this.pictureBox35 = new System.Windows.Forms.PictureBox();
-            this.lctW1Label = new System.Windows.Forms.Label();
-            this.lctW2Label = new System.Windows.Forms.Label();
-            this.lctW3Label = new System.Windows.Forms.Label();
-            this.lctW4Label = new System.Windows.Forms.Label();
-            this.lctW5Label = new System.Windows.Forms.Label();
-            this.lctW6Label = new System.Windows.Forms.Label();
+            this.fctWResult = new System.Windows.Forms.Label();
+            this.fctW3Label = new System.Windows.Forms.Label();
+            this.fctW2Label = new System.Windows.Forms.Label();
+            this.fctW1Label = new System.Windows.Forms.Label();
+            this.pictureBox30 = new System.Windows.Forms.PictureBox();
+            this.fctWzLabel = new System.Windows.Forms.Label();
+            this.pictureBox32 = new System.Windows.Forms.PictureBox();
+            this.pictureBox31 = new System.Windows.Forms.PictureBox();
+            this.lctWPanel = new System.Windows.Forms.Panel();
             this.lctWResult = new System.Windows.Forms.Label();
+            this.lctW6Label = new System.Windows.Forms.Label();
+            this.lctW5Label = new System.Windows.Forms.Label();
+            this.lctW4Label = new System.Windows.Forms.Label();
+            this.lctW3Label = new System.Windows.Forms.Label();
+            this.lctW2Label = new System.Windows.Forms.Label();
+            this.lctW1Label = new System.Windows.Forms.Label();
+            this.pictureBox35 = new System.Windows.Forms.PictureBox();
+            this.lctWzLabel = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.pictureBox34 = new System.Windows.Forms.PictureBox();
+            this.pictureBox33 = new System.Windows.Forms.PictureBox();
             this.qctCPanel = new System.Windows.Forms.Panel();
+            this.qtcCResult = new System.Windows.Forms.Label();
+            this.qtcC2Label = new System.Windows.Forms.Label();
+            this.qtcC1Label = new System.Windows.Forms.Label();
+            this.pictureBox38 = new System.Windows.Forms.PictureBox();
+            this.qtcCzLabel = new System.Windows.Forms.Label();
+            this.pictureBox37 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.pictureBox36 = new System.Windows.Forms.PictureBox();
-            this.pictureBox37 = new System.Windows.Forms.PictureBox();
-            this.qtcCzLabel = new System.Windows.Forms.Label();
-            this.pictureBox38 = new System.Windows.Forms.PictureBox();
-            this.qtcC1Label = new System.Windows.Forms.Label();
-            this.qtcC2Label = new System.Windows.Forms.Label();
-            this.qtcCResult = new System.Windows.Forms.Label();
             this.pctCPanel = new System.Windows.Forms.Panel();
-            this.pictureBox39 = new System.Windows.Forms.PictureBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.pictureBox40 = new System.Windows.Forms.PictureBox();
-            this.pctCzLabel = new System.Windows.Forms.Label();
-            this.pictureBox41 = new System.Windows.Forms.PictureBox();
             this.pctC1Label = new System.Windows.Forms.Label();
-            this.pctCResult = new System.Windows.Forms.Label();
             this.pctC2Label = new System.Windows.Forms.Label();
+            this.pctCResult = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.pctCzLabel = new System.Windows.Forms.Label();
+            this.pictureBox40 = new System.Windows.Forms.PictureBox();
+            this.pictureBox39 = new System.Windows.Forms.PictureBox();
+            this.pictureBox41 = new System.Windows.Forms.PictureBox();
             this.mtcCPanel = new System.Windows.Forms.Panel();
-            this.pictureBox42 = new System.Windows.Forms.PictureBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox43 = new System.Windows.Forms.PictureBox();
-            this.mtcC1Label = new System.Windows.Forms.Label();
-            this.mtcC2Label = new System.Windows.Forms.Label();
             this.mtcCResult = new System.Windows.Forms.Label();
+            this.mtcC2Label = new System.Windows.Forms.Label();
+            this.mtcC1Label = new System.Windows.Forms.Label();
+            this.pictureBox43 = new System.Windows.Forms.PictureBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.pictureBox42 = new System.Windows.Forms.PictureBox();
             this.fctCPanel = new System.Windows.Forms.Panel();
-            this.label14 = new System.Windows.Forms.Label();
+            this.fctCResult = new System.Windows.Forms.Label();
+            this.fctC4Label = new System.Windows.Forms.Label();
+            this.fctC3Label = new System.Windows.Forms.Label();
+            this.fctC2Label = new System.Windows.Forms.Label();
+            this.fctC1Label = new System.Windows.Forms.Label();
             this.pictureBox44 = new System.Windows.Forms.PictureBox();
             this.pictureBox45 = new System.Windows.Forms.PictureBox();
-            this.fctC1Label = new System.Windows.Forms.Label();
-            this.fctC2Label = new System.Windows.Forms.Label();
-            this.fctC3Label = new System.Windows.Forms.Label();
-            this.fctC4Label = new System.Windows.Forms.Label();
-            this.fctCResult = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.lctCPanel = new System.Windows.Forms.Panel();
+            this.lctCzLabel = new System.Windows.Forms.Label();
+            this.pictureBox47 = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
             this.pictureBox46 = new System.Windows.Forms.PictureBox();
-            this.pictureBox47 = new System.Windows.Forms.PictureBox();
-            this.lctCzLabel = new System.Windows.Forms.Label();
-            this.pictureBox48 = new System.Windows.Forms.PictureBox();
-            this.lctC1Label = new System.Windows.Forms.Label();
-            this.lctC2Label = new System.Windows.Forms.Label();
             this.lctCResult = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            this.lctC2Label = new System.Windows.Forms.Label();
+            this.lctC1Label = new System.Windows.Forms.Label();
+            this.pictureBox48 = new System.Windows.Forms.PictureBox();
+            this.pictureBox49 = new System.Windows.Forms.PictureBox();
+            this.pBox = new System.Windows.Forms.TextBox();
+            this.lam0PcPanel = new System.Windows.Forms.Panel();
+            this.pictureBox50 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.lam0PcResult = new System.Windows.Forms.Label();
+            this.lam0PWPanel = new System.Windows.Forms.Panel();
+            this.lam0PWResult = new System.Windows.Forms.Label();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -192,87 +195,54 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             this.qctWPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             this.pctWPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             this.mtcWPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
             this.fctWPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
             this.lctWPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
             this.qctCPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
             this.pctCPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
             this.mtcCPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
             this.fctCPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).BeginInit();
             this.lctCPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).BeginInit();
+            this.lam0PcPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            this.lam0PWPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(48, 403);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(47, 29);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox14.TabIndex = 78;
-            this.pictureBox14.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(149, 403);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(36, 29);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox13.TabIndex = 77;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(120, 403);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(28, 29);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 76;
-            this.pictureBox12.TabStop = false;
-            // 
-            // lam0lCheckBox
-            // 
-            this.lam0lCheckBox.AutoSize = true;
-            this.lam0lCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lam0lCheckBox.Location = new System.Drawing.Point(105, 411);
-            this.lam0lCheckBox.Name = "lam0lCheckBox";
-            this.lam0lCheckBox.Size = new System.Drawing.Size(15, 14);
-            this.lam0lCheckBox.TabIndex = 75;
-            this.lam0lCheckBox.UseVisualStyleBackColor = true;
             // 
             // pictureBox3
             // 
@@ -299,7 +269,7 @@
             // 
             this.mtcCheckBox.AutoSize = true;
             this.mtcCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.mtcCheckBox.Location = new System.Drawing.Point(105, 532);
+            this.mtcCheckBox.Location = new System.Drawing.Point(105, 491);
             this.mtcCheckBox.Name = "mtcCheckBox";
             this.mtcCheckBox.Size = new System.Drawing.Size(15, 14);
             this.mtcCheckBox.TabIndex = 73;
@@ -308,7 +278,7 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(123, 520);
+            this.pictureBox9.Location = new System.Drawing.Point(123, 479);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(51, 40);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -339,7 +309,7 @@
             // 
             this.pctCheckBox.AutoSize = true;
             this.pctCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.pctCheckBox.Location = new System.Drawing.Point(105, 491);
+            this.pctCheckBox.Location = new System.Drawing.Point(105, 450);
             this.pctCheckBox.Name = "pctCheckBox";
             this.pctCheckBox.Size = new System.Drawing.Size(15, 14);
             this.pctCheckBox.TabIndex = 69;
@@ -348,7 +318,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(122, 476);
+            this.pictureBox7.Location = new System.Drawing.Point(122, 435);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(59, 49);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -379,7 +349,7 @@
             // 
             this.lamtCheckBox.AutoSize = true;
             this.lamtCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lamtCheckBox.Location = new System.Drawing.Point(105, 451);
+            this.lamtCheckBox.Location = new System.Drawing.Point(105, 410);
             this.lamtCheckBox.Name = "lamtCheckBox";
             this.lamtCheckBox.Size = new System.Drawing.Size(15, 14);
             this.lamtCheckBox.TabIndex = 65;
@@ -388,7 +358,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(120, 428);
+            this.pictureBox5.Location = new System.Drawing.Point(120, 387);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(63, 55);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -609,7 +579,7 @@
             this.lam0mPanel.Controls.Add(this.pictureBox17);
             this.lam0mPanel.Location = new System.Drawing.Point(236, 30);
             this.lam0mPanel.Name = "lam0mPanel";
-            this.lam0mPanel.Size = new System.Drawing.Size(489, 54);
+            this.lam0mPanel.Size = new System.Drawing.Size(418, 54);
             this.lam0mPanel.TabIndex = 82;
             this.lam0mPanel.Visible = false;
             // 
@@ -691,16 +661,6 @@
             this.qctWPanel.TabIndex = 84;
             this.qctWPanel.Visible = false;
             // 
-            // pictureBox19
-            // 
-            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.Location = new System.Drawing.Point(338, 18);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(142, 67);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox19.TabIndex = 1;
-            this.pictureBox19.TabStop = false;
-            // 
             // pictureBox18
             // 
             this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
@@ -711,65 +671,15 @@
             this.pictureBox18.TabIndex = 0;
             this.pictureBox18.TabStop = false;
             // 
-            // label5
+            // pictureBox19
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(-1, -2);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(136, 20);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Теплый резерв";
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
-            this.pictureBox20.Location = new System.Drawing.Point(480, 18);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(180, 67);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox20.TabIndex = 3;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox21
-            // 
-            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
-            this.pictureBox21.Location = new System.Drawing.Point(-1, 79);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(481, 67);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox21.TabIndex = 4;
-            this.pictureBox21.TabStop = false;
-            // 
-            // qctWzLabel
-            // 
-            this.qctWzLabel.AutoSize = true;
-            this.qctWzLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.qctWzLabel.Location = new System.Drawing.Point(659, 41);
-            this.qctWzLabel.Name = "qctWzLabel";
-            this.qctWzLabel.Size = new System.Drawing.Size(45, 15);
-            this.qctWzLabel.TabIndex = 9;
-            this.qctWzLabel.Text = "label5";
-            // 
-            // qctW1Label
-            // 
-            this.qctW1Label.AutoSize = true;
-            this.qctW1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.qctW1Label.Location = new System.Drawing.Point(151, 95);
-            this.qctW1Label.Name = "qctW1Label";
-            this.qctW1Label.Size = new System.Drawing.Size(45, 15);
-            this.qctW1Label.TabIndex = 10;
-            this.qctW1Label.Text = "label5";
-            // 
-            // qctW2Label
-            // 
-            this.qctW2Label.AutoSize = true;
-            this.qctW2Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.qctW2Label.Location = new System.Drawing.Point(319, 103);
-            this.qctW2Label.Name = "qctW2Label";
-            this.qctW2Label.Size = new System.Drawing.Size(45, 15);
-            this.qctW2Label.TabIndex = 11;
-            this.qctW2Label.Text = "label5";
+            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
+            this.pictureBox19.Location = new System.Drawing.Point(338, 18);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(142, 67);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox19.TabIndex = 1;
+            this.pictureBox19.TabStop = false;
             // 
             // qctWResult
             // 
@@ -781,15 +691,75 @@
             this.qctWResult.TabIndex = 9;
             this.qctWResult.Text = "label5";
             // 
+            // qctW2Label
+            // 
+            this.qctW2Label.AutoSize = true;
+            this.qctW2Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.qctW2Label.Location = new System.Drawing.Point(319, 103);
+            this.qctW2Label.Name = "qctW2Label";
+            this.qctW2Label.Size = new System.Drawing.Size(45, 15);
+            this.qctW2Label.TabIndex = 11;
+            this.qctW2Label.Text = "label5";
+            // 
+            // qctW1Label
+            // 
+            this.qctW1Label.AutoSize = true;
+            this.qctW1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.qctW1Label.Location = new System.Drawing.Point(151, 95);
+            this.qctW1Label.Name = "qctW1Label";
+            this.qctW1Label.Size = new System.Drawing.Size(45, 15);
+            this.qctW1Label.TabIndex = 10;
+            this.qctW1Label.Text = "label5";
+            // 
+            // qctWzLabel
+            // 
+            this.qctWzLabel.AutoSize = true;
+            this.qctWzLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.qctWzLabel.Location = new System.Drawing.Point(659, 41);
+            this.qctWzLabel.Name = "qctWzLabel";
+            this.qctWzLabel.Size = new System.Drawing.Size(45, 15);
+            this.qctWzLabel.TabIndex = 9;
+            this.qctWzLabel.Text = "label5";
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
+            this.pictureBox21.Location = new System.Drawing.Point(-1, 79);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(481, 67);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox21.TabIndex = 4;
+            this.pictureBox21.TabStop = false;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
+            this.pictureBox20.Location = new System.Drawing.Point(480, 18);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(180, 67);
+            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox20.TabIndex = 3;
+            this.pictureBox20.TabStop = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(-1, -2);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(136, 20);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Теплый резерв";
+            // 
             // pctWPanel
             // 
             this.pctWPanel.BackColor = System.Drawing.Color.White;
+            this.pctWPanel.Controls.Add(this.pctW1Label);
             this.pctWPanel.Controls.Add(this.label7);
             this.pctWPanel.Controls.Add(this.pictureBox24);
             this.pctWPanel.Controls.Add(this.pictureBox22);
             this.pctWPanel.Controls.Add(this.pctWResult);
             this.pctWPanel.Controls.Add(this.pctW2Label);
-            this.pctWPanel.Controls.Add(this.pctW1Label);
             this.pctWPanel.Controls.Add(this.pictureBox25);
             this.pctWPanel.Controls.Add(this.pctWzLabel);
             this.pctWPanel.Controls.Add(this.pictureBox23);
@@ -798,56 +768,6 @@
             this.pctWPanel.Size = new System.Drawing.Size(775, 103);
             this.pctWPanel.TabIndex = 85;
             this.pctWPanel.Visible = false;
-            // 
-            // pictureBox22
-            // 
-            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
-            this.pictureBox22.Location = new System.Drawing.Point(344, -1);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(142, 67);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox22.TabIndex = 12;
-            this.pictureBox22.TabStop = false;
-            // 
-            // pictureBox23
-            // 
-            this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
-            this.pictureBox23.Location = new System.Drawing.Point(486, -1);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(180, 67);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox23.TabIndex = 13;
-            this.pictureBox23.TabStop = false;
-            // 
-            // pictureBox24
-            // 
-            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(3, 6);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(350, 67);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox24.TabIndex = 12;
-            this.pictureBox24.TabStop = false;
-            // 
-            // pctWzLabel
-            // 
-            this.pctWzLabel.AutoSize = true;
-            this.pctWzLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.pctWzLabel.Location = new System.Drawing.Point(662, 23);
-            this.pctWzLabel.Name = "pctWzLabel";
-            this.pctWzLabel.Size = new System.Drawing.Size(45, 15);
-            this.pctWzLabel.TabIndex = 12;
-            this.pctWzLabel.Text = "label5";
-            // 
-            // pictureBox25
-            // 
-            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
-            this.pictureBox25.Location = new System.Drawing.Point(2, 51);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(478, 67);
-            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox25.TabIndex = 14;
-            this.pictureBox25.TabStop = false;
             // 
             // pctW1Label
             // 
@@ -859,15 +779,35 @@
             this.pctW1Label.TabIndex = 12;
             this.pctW1Label.Text = "label5";
             // 
-            // pctW2Label
+            // label7
             // 
-            this.pctW2Label.AutoSize = true;
-            this.pctW2Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.pctW2Label.Location = new System.Drawing.Point(297, 76);
-            this.pctW2Label.Name = "pctW2Label";
-            this.pctW2Label.Size = new System.Drawing.Size(45, 15);
-            this.pctW2Label.TabIndex = 15;
-            this.pctW2Label.Text = "label5";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.Location = new System.Drawing.Point(-2, -1);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(136, 20);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "Теплый резерв";
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
+            this.pictureBox24.Location = new System.Drawing.Point(3, 6);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(350, 67);
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox24.TabIndex = 12;
+            this.pictureBox24.TabStop = false;
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
+            this.pictureBox22.Location = new System.Drawing.Point(344, -1);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(142, 67);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox22.TabIndex = 12;
+            this.pictureBox22.TabStop = false;
             // 
             // pctWResult
             // 
@@ -878,6 +818,46 @@
             this.pctWResult.Size = new System.Drawing.Size(45, 15);
             this.pctWResult.TabIndex = 12;
             this.pctWResult.Text = "label5";
+            // 
+            // pctW2Label
+            // 
+            this.pctW2Label.AutoSize = true;
+            this.pctW2Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.pctW2Label.Location = new System.Drawing.Point(297, 76);
+            this.pctW2Label.Name = "pctW2Label";
+            this.pctW2Label.Size = new System.Drawing.Size(45, 15);
+            this.pctW2Label.TabIndex = 15;
+            this.pctW2Label.Text = "label5";
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
+            this.pictureBox25.Location = new System.Drawing.Point(2, 51);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(478, 67);
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox25.TabIndex = 14;
+            this.pictureBox25.TabStop = false;
+            // 
+            // pctWzLabel
+            // 
+            this.pctWzLabel.AutoSize = true;
+            this.pctWzLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.pctWzLabel.Location = new System.Drawing.Point(662, 23);
+            this.pctWzLabel.Name = "pctWzLabel";
+            this.pctWzLabel.Size = new System.Drawing.Size(45, 15);
+            this.pctWzLabel.TabIndex = 12;
+            this.pctWzLabel.Text = "label5";
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
+            this.pictureBox23.Location = new System.Drawing.Point(486, -1);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(180, 67);
+            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox23.TabIndex = 13;
+            this.pictureBox23.TabStop = false;
             // 
             // mtcWPanel
             // 
@@ -899,6 +879,16 @@
             this.mtcWPanel.TabIndex = 86;
             this.mtcWPanel.Visible = false;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label8.Location = new System.Drawing.Point(-4, -2);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(136, 20);
+            this.label8.TabIndex = 16;
+            this.label8.Text = "Теплый резерв";
+            // 
             // pictureBox26
             // 
             this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
@@ -908,86 +898,6 @@
             this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox26.TabIndex = 16;
             this.pictureBox26.TabStop = false;
-            // 
-            // pictureBox27
-            // 
-            this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
-            this.pictureBox27.Location = new System.Drawing.Point(437, 8);
-            this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(60, 48);
-            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox27.TabIndex = 16;
-            this.pictureBox27.TabStop = false;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(499, 23);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(27, 19);
-            this.label6.TabIndex = 17;
-            this.label6.Text = "k=";
-            // 
-            // mtcWkLabel
-            // 
-            this.mtcWkLabel.AutoSize = true;
-            this.mtcWkLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.mtcWkLabel.Location = new System.Drawing.Point(519, 25);
-            this.mtcWkLabel.Name = "mtcWkLabel";
-            this.mtcWkLabel.Size = new System.Drawing.Size(45, 15);
-            this.mtcWkLabel.TabIndex = 16;
-            this.mtcWkLabel.Text = "label5";
-            // 
-            // pictureBox28
-            // 
-            this.pictureBox28.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox28.Image")));
-            this.pictureBox28.Location = new System.Drawing.Point(572, -1);
-            this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(121, 62);
-            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox28.TabIndex = 18;
-            this.pictureBox28.TabStop = false;
-            // 
-            // mtcWzLabel
-            // 
-            this.mtcWzLabel.AutoSize = true;
-            this.mtcWzLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.mtcWzLabel.Location = new System.Drawing.Point(689, 23);
-            this.mtcWzLabel.Name = "mtcWzLabel";
-            this.mtcWzLabel.Size = new System.Drawing.Size(45, 15);
-            this.mtcWzLabel.TabIndex = 19;
-            this.mtcWzLabel.Text = "label5";
-            // 
-            // pictureBox29
-            // 
-            this.pictureBox29.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox29.Image")));
-            this.pictureBox29.Location = new System.Drawing.Point(2, 58);
-            this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(174, 49);
-            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox29.TabIndex = 20;
-            this.pictureBox29.TabStop = false;
-            // 
-            // mtcW2Label
-            // 
-            this.mtcW2Label.AutoSize = true;
-            this.mtcW2Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.mtcW2Label.Location = new System.Drawing.Point(69, 84);
-            this.mtcW2Label.Name = "mtcW2Label";
-            this.mtcW2Label.Size = new System.Drawing.Size(45, 15);
-            this.mtcW2Label.TabIndex = 21;
-            this.mtcW2Label.Text = "label5";
-            // 
-            // mtcW1Label
-            // 
-            this.mtcW1Label.AutoSize = true;
-            this.mtcW1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.mtcW1Label.Location = new System.Drawing.Point(70, 64);
-            this.mtcW1Label.Name = "mtcW1Label";
-            this.mtcW1Label.Size = new System.Drawing.Size(45, 15);
-            this.mtcW1Label.TabIndex = 22;
-            this.mtcW1Label.Text = "label5";
             // 
             // mtcWResult
             // 
@@ -999,25 +909,85 @@
             this.mtcWResult.TabIndex = 16;
             this.mtcWResult.Text = "label5";
             // 
-            // label7
+            // mtcW1Label
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(-2, -1);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(136, 20);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "Теплый резерв";
+            this.mtcW1Label.AutoSize = true;
+            this.mtcW1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.mtcW1Label.Location = new System.Drawing.Point(70, 64);
+            this.mtcW1Label.Name = "mtcW1Label";
+            this.mtcW1Label.Size = new System.Drawing.Size(45, 15);
+            this.mtcW1Label.TabIndex = 22;
+            this.mtcW1Label.Text = "label5";
             // 
-            // label8
+            // mtcW2Label
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(-4, -2);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(136, 20);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "Теплый резерв";
+            this.mtcW2Label.AutoSize = true;
+            this.mtcW2Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.mtcW2Label.Location = new System.Drawing.Point(69, 84);
+            this.mtcW2Label.Name = "mtcW2Label";
+            this.mtcW2Label.Size = new System.Drawing.Size(45, 15);
+            this.mtcW2Label.TabIndex = 21;
+            this.mtcW2Label.Text = "label5";
+            // 
+            // pictureBox29
+            // 
+            this.pictureBox29.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox29.Image")));
+            this.pictureBox29.Location = new System.Drawing.Point(2, 58);
+            this.pictureBox29.Name = "pictureBox29";
+            this.pictureBox29.Size = new System.Drawing.Size(174, 49);
+            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox29.TabIndex = 20;
+            this.pictureBox29.TabStop = false;
+            // 
+            // mtcWzLabel
+            // 
+            this.mtcWzLabel.AutoSize = true;
+            this.mtcWzLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.mtcWzLabel.Location = new System.Drawing.Point(689, 23);
+            this.mtcWzLabel.Name = "mtcWzLabel";
+            this.mtcWzLabel.Size = new System.Drawing.Size(45, 15);
+            this.mtcWzLabel.TabIndex = 19;
+            this.mtcWzLabel.Text = "label5";
+            // 
+            // pictureBox28
+            // 
+            this.pictureBox28.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox28.Image")));
+            this.pictureBox28.Location = new System.Drawing.Point(572, -1);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(121, 62);
+            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox28.TabIndex = 18;
+            this.pictureBox28.TabStop = false;
+            // 
+            // mtcWkLabel
+            // 
+            this.mtcWkLabel.AutoSize = true;
+            this.mtcWkLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.mtcWkLabel.Location = new System.Drawing.Point(519, 25);
+            this.mtcWkLabel.Name = "mtcWkLabel";
+            this.mtcWkLabel.Size = new System.Drawing.Size(45, 15);
+            this.mtcWkLabel.TabIndex = 16;
+            this.mtcWkLabel.Text = "label5";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.Location = new System.Drawing.Point(499, 23);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(27, 19);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "k=";
+            // 
+            // pictureBox27
+            // 
+            this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
+            this.pictureBox27.Location = new System.Drawing.Point(437, 8);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(60, 48);
+            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox27.TabIndex = 16;
+            this.pictureBox27.TabStop = false;
             // 
             // fctWPanel
             // 
@@ -1037,65 +1007,25 @@
             this.fctWPanel.TabIndex = 87;
             this.fctWPanel.Visible = false;
             // 
-            // pictureBox30
+            // label9
             // 
-            this.pictureBox30.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox30.Image")));
-            this.pictureBox30.Location = new System.Drawing.Point(155, -6);
-            this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(618, 67);
-            this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox30.TabIndex = 23;
-            this.pictureBox30.TabStop = false;
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label9.Location = new System.Drawing.Point(0, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(136, 20);
+            this.label9.TabIndex = 23;
+            this.label9.Text = "Теплый резерв";
             // 
-            // pictureBox31
+            // fctWResult
             // 
-            this.pictureBox31.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox31.Image")));
-            this.pictureBox31.Location = new System.Drawing.Point(-1, 47);
-            this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(175, 67);
-            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox31.TabIndex = 24;
-            this.pictureBox31.TabStop = false;
-            // 
-            // pictureBox32
-            // 
-            this.pictureBox32.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox32.Image")));
-            this.pictureBox32.Location = new System.Drawing.Point(253, 51);
-            this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Size = new System.Drawing.Size(396, 67);
-            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox32.TabIndex = 25;
-            this.pictureBox32.TabStop = false;
-            // 
-            // fctWzLabel
-            // 
-            this.fctWzLabel.AutoSize = true;
-            this.fctWzLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.fctWzLabel.Location = new System.Drawing.Point(169, 71);
-            this.fctWzLabel.Name = "fctWzLabel";
-            this.fctWzLabel.Size = new System.Drawing.Size(45, 15);
-            this.fctWzLabel.TabIndex = 23;
-            this.fctWzLabel.Text = "label5";
-            // 
-            // fctW1Label
-            // 
-            this.fctW1Label.AutoSize = true;
-            this.fctW1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.fctW1Label.Location = new System.Drawing.Point(321, 80);
-            this.fctW1Label.Name = "fctW1Label";
-            this.fctW1Label.Size = new System.Drawing.Size(45, 15);
-            this.fctW1Label.TabIndex = 26;
-            this.fctW1Label.Text = "label5";
-            // 
-            // fctW2Label
-            // 
-            this.fctW2Label.AutoSize = true;
-            this.fctW2Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.fctW2Label.Location = new System.Drawing.Point(416, 75);
-            this.fctW2Label.Name = "fctW2Label";
-            this.fctW2Label.Size = new System.Drawing.Size(45, 15);
-            this.fctW2Label.TabIndex = 27;
-            this.fctW2Label.Text = "label5";
+            this.fctWResult.AutoSize = true;
+            this.fctWResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fctWResult.Location = new System.Drawing.Point(644, 80);
+            this.fctWResult.Name = "fctWResult";
+            this.fctWResult.Size = new System.Drawing.Size(45, 15);
+            this.fctWResult.TabIndex = 23;
+            this.fctWResult.Text = "label5";
             // 
             // fctW3Label
             // 
@@ -1107,15 +1037,65 @@
             this.fctW3Label.TabIndex = 28;
             this.fctW3Label.Text = "label5";
             // 
-            // fctWResult
+            // fctW2Label
             // 
-            this.fctWResult.AutoSize = true;
-            this.fctWResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.fctWResult.Location = new System.Drawing.Point(644, 80);
-            this.fctWResult.Name = "fctWResult";
-            this.fctWResult.Size = new System.Drawing.Size(45, 15);
-            this.fctWResult.TabIndex = 23;
-            this.fctWResult.Text = "label5";
+            this.fctW2Label.AutoSize = true;
+            this.fctW2Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fctW2Label.Location = new System.Drawing.Point(416, 75);
+            this.fctW2Label.Name = "fctW2Label";
+            this.fctW2Label.Size = new System.Drawing.Size(45, 15);
+            this.fctW2Label.TabIndex = 27;
+            this.fctW2Label.Text = "label5";
+            // 
+            // fctW1Label
+            // 
+            this.fctW1Label.AutoSize = true;
+            this.fctW1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fctW1Label.Location = new System.Drawing.Point(321, 80);
+            this.fctW1Label.Name = "fctW1Label";
+            this.fctW1Label.Size = new System.Drawing.Size(45, 15);
+            this.fctW1Label.TabIndex = 26;
+            this.fctW1Label.Text = "label5";
+            // 
+            // pictureBox30
+            // 
+            this.pictureBox30.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox30.Image")));
+            this.pictureBox30.Location = new System.Drawing.Point(155, -6);
+            this.pictureBox30.Name = "pictureBox30";
+            this.pictureBox30.Size = new System.Drawing.Size(618, 67);
+            this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox30.TabIndex = 23;
+            this.pictureBox30.TabStop = false;
+            // 
+            // fctWzLabel
+            // 
+            this.fctWzLabel.AutoSize = true;
+            this.fctWzLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fctWzLabel.Location = new System.Drawing.Point(169, 71);
+            this.fctWzLabel.Name = "fctWzLabel";
+            this.fctWzLabel.Size = new System.Drawing.Size(45, 15);
+            this.fctWzLabel.TabIndex = 23;
+            this.fctWzLabel.Text = "label5";
+            // 
+            // pictureBox32
+            // 
+            this.pictureBox32.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox32.Image")));
+            this.pictureBox32.Location = new System.Drawing.Point(253, 51);
+            this.pictureBox32.Name = "pictureBox32";
+            this.pictureBox32.Size = new System.Drawing.Size(396, 67);
+            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox32.TabIndex = 25;
+            this.pictureBox32.TabStop = false;
+            // 
+            // pictureBox31
+            // 
+            this.pictureBox31.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox31.Image")));
+            this.pictureBox31.Location = new System.Drawing.Point(-1, 47);
+            this.pictureBox31.Name = "pictureBox31";
+            this.pictureBox31.Size = new System.Drawing.Size(175, 67);
+            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox31.TabIndex = 24;
+            this.pictureBox31.TabStop = false;
             // 
             // lctWPanel
             // 
@@ -1138,115 +1118,15 @@
             this.lctWPanel.TabIndex = 88;
             this.lctWPanel.Visible = false;
             // 
-            // pictureBox33
+            // lctWResult
             // 
-            this.pictureBox33.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox33.Image")));
-            this.pictureBox33.Location = new System.Drawing.Point(69, -5);
-            this.pictureBox33.Name = "pictureBox33";
-            this.pictureBox33.Size = new System.Drawing.Size(466, 91);
-            this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox33.TabIndex = 29;
-            this.pictureBox33.TabStop = false;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label9.Location = new System.Drawing.Point(0, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(136, 20);
-            this.label9.TabIndex = 23;
-            this.label9.Text = "Теплый резерв";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10.Location = new System.Drawing.Point(-1, 3);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(136, 20);
-            this.label10.TabIndex = 29;
-            this.label10.Text = "Теплый резерв";
-            // 
-            // lctWzLabel
-            // 
-            this.lctWzLabel.AutoSize = true;
-            this.lctWzLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctWzLabel.Location = new System.Drawing.Point(705, 33);
-            this.lctWzLabel.Name = "lctWzLabel";
-            this.lctWzLabel.Size = new System.Drawing.Size(45, 15);
-            this.lctWzLabel.TabIndex = 29;
-            this.lctWzLabel.Text = "label5";
-            // 
-            // pictureBox34
-            // 
-            this.pictureBox34.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox34.Image")));
-            this.pictureBox34.Location = new System.Drawing.Point(538, 9);
-            this.pictureBox34.Name = "pictureBox34";
-            this.pictureBox34.Size = new System.Drawing.Size(175, 67);
-            this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox34.TabIndex = 30;
-            this.pictureBox34.TabStop = false;
-            // 
-            // pictureBox35
-            // 
-            this.pictureBox35.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox35.Image")));
-            this.pictureBox35.Location = new System.Drawing.Point(4, 80);
-            this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.Size = new System.Drawing.Size(466, 43);
-            this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox35.TabIndex = 31;
-            this.pictureBox35.TabStop = false;
-            // 
-            // lctW1Label
-            // 
-            this.lctW1Label.AutoSize = true;
-            this.lctW1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctW1Label.Location = new System.Drawing.Point(69, 93);
-            this.lctW1Label.Name = "lctW1Label";
-            this.lctW1Label.Size = new System.Drawing.Size(45, 15);
-            this.lctW1Label.TabIndex = 29;
-            this.lctW1Label.Text = "label5";
-            // 
-            // lctW2Label
-            // 
-            this.lctW2Label.AutoSize = true;
-            this.lctW2Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctW2Label.Location = new System.Drawing.Point(177, 85);
-            this.lctW2Label.Name = "lctW2Label";
-            this.lctW2Label.Size = new System.Drawing.Size(45, 15);
-            this.lctW2Label.TabIndex = 32;
-            this.lctW2Label.Text = "label5";
-            // 
-            // lctW3Label
-            // 
-            this.lctW3Label.AutoSize = true;
-            this.lctW3Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctW3Label.Location = new System.Drawing.Point(177, 102);
-            this.lctW3Label.Name = "lctW3Label";
-            this.lctW3Label.Size = new System.Drawing.Size(45, 15);
-            this.lctW3Label.TabIndex = 33;
-            this.lctW3Label.Text = "label5";
-            // 
-            // lctW4Label
-            // 
-            this.lctW4Label.AutoSize = true;
-            this.lctW4Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctW4Label.Location = new System.Drawing.Point(261, 87);
-            this.lctW4Label.Name = "lctW4Label";
-            this.lctW4Label.Size = new System.Drawing.Size(45, 15);
-            this.lctW4Label.TabIndex = 34;
-            this.lctW4Label.Text = "label5";
-            // 
-            // lctW5Label
-            // 
-            this.lctW5Label.AutoSize = true;
-            this.lctW5Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctW5Label.Location = new System.Drawing.Point(368, 85);
-            this.lctW5Label.Name = "lctW5Label";
-            this.lctW5Label.Size = new System.Drawing.Size(45, 15);
-            this.lctW5Label.TabIndex = 35;
-            this.lctW5Label.Text = "label5";
+            this.lctWResult.AutoSize = true;
+            this.lctWResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lctWResult.Location = new System.Drawing.Point(470, 92);
+            this.lctWResult.Name = "lctWResult";
+            this.lctWResult.Size = new System.Drawing.Size(45, 15);
+            this.lctWResult.TabIndex = 29;
+            this.lctWResult.Text = "label5";
             // 
             // lctW6Label
             // 
@@ -1258,15 +1138,105 @@
             this.lctW6Label.TabIndex = 36;
             this.lctW6Label.Text = "label5";
             // 
-            // lctWResult
+            // lctW5Label
             // 
-            this.lctWResult.AutoSize = true;
-            this.lctWResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctWResult.Location = new System.Drawing.Point(470, 92);
-            this.lctWResult.Name = "lctWResult";
-            this.lctWResult.Size = new System.Drawing.Size(45, 15);
-            this.lctWResult.TabIndex = 29;
-            this.lctWResult.Text = "label5";
+            this.lctW5Label.AutoSize = true;
+            this.lctW5Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lctW5Label.Location = new System.Drawing.Point(368, 85);
+            this.lctW5Label.Name = "lctW5Label";
+            this.lctW5Label.Size = new System.Drawing.Size(45, 15);
+            this.lctW5Label.TabIndex = 35;
+            this.lctW5Label.Text = "label5";
+            // 
+            // lctW4Label
+            // 
+            this.lctW4Label.AutoSize = true;
+            this.lctW4Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lctW4Label.Location = new System.Drawing.Point(261, 87);
+            this.lctW4Label.Name = "lctW4Label";
+            this.lctW4Label.Size = new System.Drawing.Size(45, 15);
+            this.lctW4Label.TabIndex = 34;
+            this.lctW4Label.Text = "label5";
+            // 
+            // lctW3Label
+            // 
+            this.lctW3Label.AutoSize = true;
+            this.lctW3Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lctW3Label.Location = new System.Drawing.Point(177, 102);
+            this.lctW3Label.Name = "lctW3Label";
+            this.lctW3Label.Size = new System.Drawing.Size(45, 15);
+            this.lctW3Label.TabIndex = 33;
+            this.lctW3Label.Text = "label5";
+            // 
+            // lctW2Label
+            // 
+            this.lctW2Label.AutoSize = true;
+            this.lctW2Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lctW2Label.Location = new System.Drawing.Point(177, 85);
+            this.lctW2Label.Name = "lctW2Label";
+            this.lctW2Label.Size = new System.Drawing.Size(45, 15);
+            this.lctW2Label.TabIndex = 32;
+            this.lctW2Label.Text = "label5";
+            // 
+            // lctW1Label
+            // 
+            this.lctW1Label.AutoSize = true;
+            this.lctW1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lctW1Label.Location = new System.Drawing.Point(69, 93);
+            this.lctW1Label.Name = "lctW1Label";
+            this.lctW1Label.Size = new System.Drawing.Size(45, 15);
+            this.lctW1Label.TabIndex = 29;
+            this.lctW1Label.Text = "label5";
+            // 
+            // pictureBox35
+            // 
+            this.pictureBox35.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox35.Image")));
+            this.pictureBox35.Location = new System.Drawing.Point(4, 80);
+            this.pictureBox35.Name = "pictureBox35";
+            this.pictureBox35.Size = new System.Drawing.Size(466, 43);
+            this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox35.TabIndex = 31;
+            this.pictureBox35.TabStop = false;
+            // 
+            // lctWzLabel
+            // 
+            this.lctWzLabel.AutoSize = true;
+            this.lctWzLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lctWzLabel.Location = new System.Drawing.Point(705, 33);
+            this.lctWzLabel.Name = "lctWzLabel";
+            this.lctWzLabel.Size = new System.Drawing.Size(45, 15);
+            this.lctWzLabel.TabIndex = 29;
+            this.lctWzLabel.Text = "label5";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label10.Location = new System.Drawing.Point(-1, 3);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(136, 20);
+            this.label10.TabIndex = 29;
+            this.label10.Text = "Теплый резерв";
+            // 
+            // pictureBox34
+            // 
+            this.pictureBox34.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox34.Image")));
+            this.pictureBox34.Location = new System.Drawing.Point(538, 9);
+            this.pictureBox34.Name = "pictureBox34";
+            this.pictureBox34.Size = new System.Drawing.Size(175, 67);
+            this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox34.TabIndex = 30;
+            this.pictureBox34.TabStop = false;
+            // 
+            // pictureBox33
+            // 
+            this.pictureBox33.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox33.Image")));
+            this.pictureBox33.Location = new System.Drawing.Point(69, -5);
+            this.pictureBox33.Name = "pictureBox33";
+            this.pictureBox33.Size = new System.Drawing.Size(466, 91);
+            this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox33.TabIndex = 29;
+            this.pictureBox33.TabStop = false;
             // 
             // qctCPanel
             // 
@@ -1284,6 +1254,66 @@
             this.qctCPanel.Size = new System.Drawing.Size(495, 127);
             this.qctCPanel.TabIndex = 89;
             this.qctCPanel.Visible = false;
+            // 
+            // qtcCResult
+            // 
+            this.qtcCResult.AutoSize = true;
+            this.qtcCResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.qtcCResult.Location = new System.Drawing.Point(334, 87);
+            this.qtcCResult.Name = "qtcCResult";
+            this.qtcCResult.Size = new System.Drawing.Size(45, 15);
+            this.qtcCResult.TabIndex = 16;
+            this.qtcCResult.Text = "label5";
+            // 
+            // qtcC2Label
+            // 
+            this.qtcC2Label.AutoSize = true;
+            this.qtcC2Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.qtcC2Label.Location = new System.Drawing.Point(263, 88);
+            this.qtcC2Label.Name = "qtcC2Label";
+            this.qtcC2Label.Size = new System.Drawing.Size(45, 15);
+            this.qtcC2Label.TabIndex = 16;
+            this.qtcC2Label.Text = "label5";
+            // 
+            // qtcC1Label
+            // 
+            this.qtcC1Label.AutoSize = true;
+            this.qtcC1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.qtcC1Label.Location = new System.Drawing.Point(134, 82);
+            this.qtcC1Label.Name = "qtcC1Label";
+            this.qtcC1Label.Size = new System.Drawing.Size(45, 15);
+            this.qtcC1Label.TabIndex = 15;
+            this.qtcC1Label.Text = "label5";
+            // 
+            // pictureBox38
+            // 
+            this.pictureBox38.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox38.Image")));
+            this.pictureBox38.Location = new System.Drawing.Point(1, 84);
+            this.pictureBox38.Name = "pictureBox38";
+            this.pictureBox38.Size = new System.Drawing.Size(349, 31);
+            this.pictureBox38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox38.TabIndex = 14;
+            this.pictureBox38.TabStop = false;
+            // 
+            // qtcCzLabel
+            // 
+            this.qtcCzLabel.AutoSize = true;
+            this.qtcCzLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.qtcCzLabel.Location = new System.Drawing.Point(365, 24);
+            this.qtcCzLabel.Name = "qtcCzLabel";
+            this.qtcCzLabel.Size = new System.Drawing.Size(45, 15);
+            this.qtcCzLabel.TabIndex = 12;
+            this.qtcCzLabel.Text = "label5";
+            // 
+            // pictureBox37
+            // 
+            this.pictureBox37.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox37.Image")));
+            this.pictureBox37.Location = new System.Drawing.Point(260, -2);
+            this.pictureBox37.Name = "pictureBox37";
+            this.pictureBox37.Size = new System.Drawing.Size(112, 70);
+            this.pictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox37.TabIndex = 13;
+            this.pictureBox37.TabStop = false;
             // 
             // label11
             // 
@@ -1305,72 +1335,12 @@
             this.pictureBox36.TabIndex = 12;
             this.pictureBox36.TabStop = false;
             // 
-            // pictureBox37
-            // 
-            this.pictureBox37.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox37.Image")));
-            this.pictureBox37.Location = new System.Drawing.Point(260, -2);
-            this.pictureBox37.Name = "pictureBox37";
-            this.pictureBox37.Size = new System.Drawing.Size(112, 70);
-            this.pictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox37.TabIndex = 13;
-            this.pictureBox37.TabStop = false;
-            // 
-            // qtcCzLabel
-            // 
-            this.qtcCzLabel.AutoSize = true;
-            this.qtcCzLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.qtcCzLabel.Location = new System.Drawing.Point(365, 24);
-            this.qtcCzLabel.Name = "qtcCzLabel";
-            this.qtcCzLabel.Size = new System.Drawing.Size(45, 15);
-            this.qtcCzLabel.TabIndex = 12;
-            this.qtcCzLabel.Text = "label5";
-            // 
-            // pictureBox38
-            // 
-            this.pictureBox38.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox38.Image")));
-            this.pictureBox38.Location = new System.Drawing.Point(1, 84);
-            this.pictureBox38.Name = "pictureBox38";
-            this.pictureBox38.Size = new System.Drawing.Size(349, 31);
-            this.pictureBox38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox38.TabIndex = 14;
-            this.pictureBox38.TabStop = false;
-            // 
-            // qtcC1Label
-            // 
-            this.qtcC1Label.AutoSize = true;
-            this.qtcC1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.qtcC1Label.Location = new System.Drawing.Point(134, 82);
-            this.qtcC1Label.Name = "qtcC1Label";
-            this.qtcC1Label.Size = new System.Drawing.Size(45, 15);
-            this.qtcC1Label.TabIndex = 15;
-            this.qtcC1Label.Text = "label5";
-            // 
-            // qtcC2Label
-            // 
-            this.qtcC2Label.AutoSize = true;
-            this.qtcC2Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.qtcC2Label.Location = new System.Drawing.Point(236, 88);
-            this.qtcC2Label.Name = "qtcC2Label";
-            this.qtcC2Label.Size = new System.Drawing.Size(45, 15);
-            this.qtcC2Label.TabIndex = 16;
-            this.qtcC2Label.Text = "label5";
-            // 
-            // qtcCResult
-            // 
-            this.qtcCResult.AutoSize = true;
-            this.qtcCResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.qtcCResult.Location = new System.Drawing.Point(334, 87);
-            this.qtcCResult.Name = "qtcCResult";
-            this.qtcCResult.Size = new System.Drawing.Size(45, 15);
-            this.qtcCResult.TabIndex = 16;
-            this.qtcCResult.Text = "label5";
-            // 
             // pctCPanel
             // 
             this.pctCPanel.BackColor = System.Drawing.Color.White;
+            this.pctCPanel.Controls.Add(this.pctC1Label);
             this.pctCPanel.Controls.Add(this.pctC2Label);
             this.pctCPanel.Controls.Add(this.pctCResult);
-            this.pctCPanel.Controls.Add(this.pctC1Label);
             this.pctCPanel.Controls.Add(this.label12);
             this.pctCPanel.Controls.Add(this.pctCzLabel);
             this.pctCPanel.Controls.Add(this.pictureBox40);
@@ -1382,56 +1352,6 @@
             this.pctCPanel.TabIndex = 90;
             this.pctCPanel.Visible = false;
             // 
-            // pictureBox39
-            // 
-            this.pictureBox39.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox39.Image")));
-            this.pictureBox39.Location = new System.Drawing.Point(3, -4);
-            this.pictureBox39.Name = "pictureBox39";
-            this.pictureBox39.Size = new System.Drawing.Size(278, 74);
-            this.pictureBox39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox39.TabIndex = 17;
-            this.pictureBox39.TabStop = false;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label12.Location = new System.Drawing.Point(-2, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(160, 20);
-            this.label12.TabIndex = 17;
-            this.label12.Text = "Холодный резерв";
-            // 
-            // pictureBox40
-            // 
-            this.pictureBox40.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox40.Image")));
-            this.pictureBox40.Location = new System.Drawing.Point(286, -4);
-            this.pictureBox40.Name = "pictureBox40";
-            this.pictureBox40.Size = new System.Drawing.Size(112, 70);
-            this.pictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox40.TabIndex = 17;
-            this.pictureBox40.TabStop = false;
-            // 
-            // pctCzLabel
-            // 
-            this.pctCzLabel.AutoSize = true;
-            this.pctCzLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.pctCzLabel.Location = new System.Drawing.Point(391, 22);
-            this.pctCzLabel.Name = "pctCzLabel";
-            this.pctCzLabel.Size = new System.Drawing.Size(45, 15);
-            this.pctCzLabel.TabIndex = 17;
-            this.pctCzLabel.Text = "label5";
-            // 
-            // pictureBox41
-            // 
-            this.pictureBox41.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox41.Image")));
-            this.pictureBox41.Location = new System.Drawing.Point(1, 62);
-            this.pictureBox41.Name = "pictureBox41";
-            this.pictureBox41.Size = new System.Drawing.Size(278, 39);
-            this.pictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox41.TabIndex = 18;
-            this.pictureBox41.TabStop = false;
-            // 
             // pctC1Label
             // 
             this.pctC1Label.AutoSize = true;
@@ -1441,6 +1361,16 @@
             this.pctC1Label.Size = new System.Drawing.Size(45, 15);
             this.pctC1Label.TabIndex = 17;
             this.pctC1Label.Text = "label5";
+            // 
+            // pctC2Label
+            // 
+            this.pctC2Label.AutoSize = true;
+            this.pctC2Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.pctC2Label.Location = new System.Drawing.Point(207, 75);
+            this.pctC2Label.Name = "pctC2Label";
+            this.pctC2Label.Size = new System.Drawing.Size(45, 15);
+            this.pctC2Label.TabIndex = 19;
+            this.pctC2Label.Text = "label5";
             // 
             // pctCResult
             // 
@@ -1452,15 +1382,55 @@
             this.pctCResult.TabIndex = 17;
             this.pctCResult.Text = "label5";
             // 
-            // pctC2Label
+            // label12
             // 
-            this.pctC2Label.AutoSize = true;
-            this.pctC2Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.pctC2Label.Location = new System.Drawing.Point(181, 74);
-            this.pctC2Label.Name = "pctC2Label";
-            this.pctC2Label.Size = new System.Drawing.Size(45, 15);
-            this.pctC2Label.TabIndex = 19;
-            this.pctC2Label.Text = "label5";
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label12.Location = new System.Drawing.Point(-2, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(160, 20);
+            this.label12.TabIndex = 17;
+            this.label12.Text = "Холодный резерв";
+            // 
+            // pctCzLabel
+            // 
+            this.pctCzLabel.AutoSize = true;
+            this.pctCzLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.pctCzLabel.Location = new System.Drawing.Point(391, 22);
+            this.pctCzLabel.Name = "pctCzLabel";
+            this.pctCzLabel.Size = new System.Drawing.Size(45, 15);
+            this.pctCzLabel.TabIndex = 17;
+            this.pctCzLabel.Text = "label5";
+            // 
+            // pictureBox40
+            // 
+            this.pictureBox40.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox40.Image")));
+            this.pictureBox40.Location = new System.Drawing.Point(286, -4);
+            this.pictureBox40.Name = "pictureBox40";
+            this.pictureBox40.Size = new System.Drawing.Size(112, 70);
+            this.pictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox40.TabIndex = 17;
+            this.pictureBox40.TabStop = false;
+            // 
+            // pictureBox39
+            // 
+            this.pictureBox39.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox39.Image")));
+            this.pictureBox39.Location = new System.Drawing.Point(3, -4);
+            this.pictureBox39.Name = "pictureBox39";
+            this.pictureBox39.Size = new System.Drawing.Size(278, 74);
+            this.pictureBox39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox39.TabIndex = 17;
+            this.pictureBox39.TabStop = false;
+            // 
+            // pictureBox41
+            // 
+            this.pictureBox41.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox41.Image")));
+            this.pictureBox41.Location = new System.Drawing.Point(1, 62);
+            this.pictureBox41.Name = "pictureBox41";
+            this.pictureBox41.Size = new System.Drawing.Size(278, 39);
+            this.pictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox41.TabIndex = 18;
+            this.pictureBox41.TabStop = false;
             // 
             // mtcCPanel
             // 
@@ -1477,45 +1447,15 @@
             this.mtcCPanel.TabIndex = 91;
             this.mtcCPanel.Visible = false;
             // 
-            // pictureBox42
+            // mtcCResult
             // 
-            this.pictureBox42.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox42.Image")));
-            this.pictureBox42.Location = new System.Drawing.Point(162, -1);
-            this.pictureBox42.Name = "pictureBox42";
-            this.pictureBox42.Size = new System.Drawing.Size(209, 64);
-            this.pictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox42.TabIndex = 20;
-            this.pictureBox42.TabStop = false;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label13.Location = new System.Drawing.Point(-1, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(160, 20);
-            this.label13.TabIndex = 20;
-            this.label13.Text = "Холодный резерв";
-            // 
-            // pictureBox43
-            // 
-            this.pictureBox43.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox43.Image")));
-            this.pictureBox43.Location = new System.Drawing.Point(4, 57);
-            this.pictureBox43.Name = "pictureBox43";
-            this.pictureBox43.Size = new System.Drawing.Size(159, 43);
-            this.pictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox43.TabIndex = 21;
-            this.pictureBox43.TabStop = false;
-            // 
-            // mtcC1Label
-            // 
-            this.mtcC1Label.AutoSize = true;
-            this.mtcC1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.mtcC1Label.Location = new System.Drawing.Point(57, 63);
-            this.mtcC1Label.Name = "mtcC1Label";
-            this.mtcC1Label.Size = new System.Drawing.Size(45, 15);
-            this.mtcC1Label.TabIndex = 20;
-            this.mtcC1Label.Text = "label5";
+            this.mtcCResult.AutoSize = true;
+            this.mtcCResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.mtcCResult.Location = new System.Drawing.Point(157, 69);
+            this.mtcCResult.Name = "mtcCResult";
+            this.mtcCResult.Size = new System.Drawing.Size(45, 15);
+            this.mtcCResult.TabIndex = 20;
+            this.mtcCResult.Text = "label5";
             // 
             // mtcC2Label
             // 
@@ -1527,15 +1467,45 @@
             this.mtcC2Label.TabIndex = 22;
             this.mtcC2Label.Text = "label5";
             // 
-            // mtcCResult
+            // mtcC1Label
             // 
-            this.mtcCResult.AutoSize = true;
-            this.mtcCResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.mtcCResult.Location = new System.Drawing.Point(157, 69);
-            this.mtcCResult.Name = "mtcCResult";
-            this.mtcCResult.Size = new System.Drawing.Size(45, 15);
-            this.mtcCResult.TabIndex = 20;
-            this.mtcCResult.Text = "label5";
+            this.mtcC1Label.AutoSize = true;
+            this.mtcC1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.mtcC1Label.Location = new System.Drawing.Point(57, 63);
+            this.mtcC1Label.Name = "mtcC1Label";
+            this.mtcC1Label.Size = new System.Drawing.Size(45, 15);
+            this.mtcC1Label.TabIndex = 20;
+            this.mtcC1Label.Text = "label5";
+            // 
+            // pictureBox43
+            // 
+            this.pictureBox43.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox43.Image")));
+            this.pictureBox43.Location = new System.Drawing.Point(4, 57);
+            this.pictureBox43.Name = "pictureBox43";
+            this.pictureBox43.Size = new System.Drawing.Size(159, 43);
+            this.pictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox43.TabIndex = 21;
+            this.pictureBox43.TabStop = false;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label13.Location = new System.Drawing.Point(-1, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(160, 20);
+            this.label13.TabIndex = 20;
+            this.label13.Text = "Холодный резерв";
+            // 
+            // pictureBox42
+            // 
+            this.pictureBox42.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox42.Image")));
+            this.pictureBox42.Location = new System.Drawing.Point(162, -1);
+            this.pictureBox42.Name = "pictureBox42";
+            this.pictureBox42.Size = new System.Drawing.Size(209, 64);
+            this.pictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox42.TabIndex = 20;
+            this.pictureBox42.TabStop = false;
             // 
             // fctCPanel
             // 
@@ -1554,15 +1524,55 @@
             this.fctCPanel.TabIndex = 92;
             this.fctCPanel.Visible = false;
             // 
-            // label14
+            // fctCResult
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label14.Location = new System.Drawing.Point(0, 0);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(160, 20);
-            this.label14.TabIndex = 23;
-            this.label14.Text = "Холодный резерв";
+            this.fctCResult.AutoSize = true;
+            this.fctCResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fctCResult.Location = new System.Drawing.Point(400, 66);
+            this.fctCResult.Name = "fctCResult";
+            this.fctCResult.Size = new System.Drawing.Size(45, 15);
+            this.fctCResult.TabIndex = 20;
+            this.fctCResult.Text = "label5";
+            // 
+            // fctC4Label
+            // 
+            this.fctC4Label.AutoSize = true;
+            this.fctC4Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fctC4Label.Location = new System.Drawing.Point(269, 60);
+            this.fctC4Label.Name = "fctC4Label";
+            this.fctC4Label.Size = new System.Drawing.Size(45, 15);
+            this.fctC4Label.TabIndex = 27;
+            this.fctC4Label.Text = "label5";
+            // 
+            // fctC3Label
+            // 
+            this.fctC3Label.AutoSize = true;
+            this.fctC3Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fctC3Label.Location = new System.Drawing.Point(159, 65);
+            this.fctC3Label.Name = "fctC3Label";
+            this.fctC3Label.Size = new System.Drawing.Size(45, 15);
+            this.fctC3Label.TabIndex = 26;
+            this.fctC3Label.Text = "label5";
+            // 
+            // fctC2Label
+            // 
+            this.fctC2Label.AutoSize = true;
+            this.fctC2Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fctC2Label.Location = new System.Drawing.Point(74, 76);
+            this.fctC2Label.Name = "fctC2Label";
+            this.fctC2Label.Size = new System.Drawing.Size(45, 15);
+            this.fctC2Label.TabIndex = 25;
+            this.fctC2Label.Text = "label5";
+            // 
+            // fctC1Label
+            // 
+            this.fctC1Label.AutoSize = true;
+            this.fctC1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fctC1Label.Location = new System.Drawing.Point(74, 58);
+            this.fctC1Label.Name = "fctC1Label";
+            this.fctC1Label.Size = new System.Drawing.Size(45, 15);
+            this.fctC1Label.TabIndex = 23;
+            this.fctC1Label.Text = "label5";
             // 
             // pictureBox44
             // 
@@ -1584,55 +1594,15 @@
             this.pictureBox45.TabIndex = 24;
             this.pictureBox45.TabStop = false;
             // 
-            // fctC1Label
+            // label14
             // 
-            this.fctC1Label.AutoSize = true;
-            this.fctC1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.fctC1Label.Location = new System.Drawing.Point(74, 58);
-            this.fctC1Label.Name = "fctC1Label";
-            this.fctC1Label.Size = new System.Drawing.Size(45, 15);
-            this.fctC1Label.TabIndex = 23;
-            this.fctC1Label.Text = "label5";
-            // 
-            // fctC2Label
-            // 
-            this.fctC2Label.AutoSize = true;
-            this.fctC2Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.fctC2Label.Location = new System.Drawing.Point(74, 76);
-            this.fctC2Label.Name = "fctC2Label";
-            this.fctC2Label.Size = new System.Drawing.Size(45, 15);
-            this.fctC2Label.TabIndex = 25;
-            this.fctC2Label.Text = "label5";
-            // 
-            // fctC3Label
-            // 
-            this.fctC3Label.AutoSize = true;
-            this.fctC3Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.fctC3Label.Location = new System.Drawing.Point(159, 65);
-            this.fctC3Label.Name = "fctC3Label";
-            this.fctC3Label.Size = new System.Drawing.Size(45, 15);
-            this.fctC3Label.TabIndex = 26;
-            this.fctC3Label.Text = "label5";
-            // 
-            // fctC4Label
-            // 
-            this.fctC4Label.AutoSize = true;
-            this.fctC4Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.fctC4Label.Location = new System.Drawing.Point(269, 60);
-            this.fctC4Label.Name = "fctC4Label";
-            this.fctC4Label.Size = new System.Drawing.Size(45, 15);
-            this.fctC4Label.TabIndex = 27;
-            this.fctC4Label.Text = "label5";
-            // 
-            // fctCResult
-            // 
-            this.fctCResult.AutoSize = true;
-            this.fctCResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.fctCResult.Location = new System.Drawing.Point(400, 66);
-            this.fctCResult.Name = "fctCResult";
-            this.fctCResult.Size = new System.Drawing.Size(45, 15);
-            this.fctCResult.TabIndex = 20;
-            this.fctCResult.Text = "label5";
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label14.Location = new System.Drawing.Point(0, 0);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(160, 20);
+            this.label14.TabIndex = 23;
+            this.label14.Text = "Холодный резерв";
             // 
             // lctCPanel
             // 
@@ -1650,6 +1620,26 @@
             this.lctCPanel.Size = new System.Drawing.Size(490, 131);
             this.lctCPanel.TabIndex = 93;
             this.lctCPanel.Visible = false;
+            // 
+            // lctCzLabel
+            // 
+            this.lctCzLabel.AutoSize = true;
+            this.lctCzLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lctCzLabel.Location = new System.Drawing.Point(392, 27);
+            this.lctCzLabel.Name = "lctCzLabel";
+            this.lctCzLabel.Size = new System.Drawing.Size(45, 15);
+            this.lctCzLabel.TabIndex = 20;
+            this.lctCzLabel.Text = "label5";
+            // 
+            // pictureBox47
+            // 
+            this.pictureBox47.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox47.Image")));
+            this.pictureBox47.Location = new System.Drawing.Point(286, 1);
+            this.pictureBox47.Name = "pictureBox47";
+            this.pictureBox47.Size = new System.Drawing.Size(112, 70);
+            this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox47.TabIndex = 20;
+            this.pictureBox47.TabStop = false;
             // 
             // label16
             // 
@@ -1671,45 +1661,15 @@
             this.pictureBox46.TabIndex = 28;
             this.pictureBox46.TabStop = false;
             // 
-            // pictureBox47
+            // lctCResult
             // 
-            this.pictureBox47.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox47.Image")));
-            this.pictureBox47.Location = new System.Drawing.Point(286, 1);
-            this.pictureBox47.Name = "pictureBox47";
-            this.pictureBox47.Size = new System.Drawing.Size(112, 70);
-            this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox47.TabIndex = 20;
-            this.pictureBox47.TabStop = false;
-            // 
-            // lctCzLabel
-            // 
-            this.lctCzLabel.AutoSize = true;
-            this.lctCzLabel.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctCzLabel.Location = new System.Drawing.Point(392, 27);
-            this.lctCzLabel.Name = "lctCzLabel";
-            this.lctCzLabel.Size = new System.Drawing.Size(45, 15);
-            this.lctCzLabel.TabIndex = 20;
-            this.lctCzLabel.Text = "label5";
-            // 
-            // pictureBox48
-            // 
-            this.pictureBox48.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox48.Image")));
-            this.pictureBox48.Location = new System.Drawing.Point(3, 76);
-            this.pictureBox48.Name = "pictureBox48";
-            this.pictureBox48.Size = new System.Drawing.Size(256, 55);
-            this.pictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox48.TabIndex = 29;
-            this.pictureBox48.TabStop = false;
-            // 
-            // lctC1Label
-            // 
-            this.lctC1Label.AutoSize = true;
-            this.lctC1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctC1Label.Location = new System.Drawing.Point(99, 86);
-            this.lctC1Label.Name = "lctC1Label";
-            this.lctC1Label.Size = new System.Drawing.Size(45, 15);
-            this.lctC1Label.TabIndex = 30;
-            this.lctC1Label.Text = "label5";
+            this.lctCResult.AutoSize = true;
+            this.lctCResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lctCResult.Location = new System.Drawing.Point(244, 97);
+            this.lctCResult.Name = "lctCResult";
+            this.lctCResult.Size = new System.Drawing.Size(45, 15);
+            this.lctCResult.TabIndex = 23;
+            this.lctCResult.Text = "label5";
             // 
             // lctC2Label
             // 
@@ -1721,21 +1681,136 @@
             this.lctC2Label.TabIndex = 31;
             this.lctC2Label.Text = "label5";
             // 
-            // lctCResult
+            // lctC1Label
             // 
-            this.lctCResult.AutoSize = true;
-            this.lctCResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lctCResult.Location = new System.Drawing.Point(244, 97);
-            this.lctCResult.Name = "lctCResult";
-            this.lctCResult.Size = new System.Drawing.Size(45, 15);
-            this.lctCResult.TabIndex = 23;
-            this.lctCResult.Text = "label5";
+            this.lctC1Label.AutoSize = true;
+            this.lctC1Label.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lctC1Label.Location = new System.Drawing.Point(99, 86);
+            this.lctC1Label.Name = "lctC1Label";
+            this.lctC1Label.Size = new System.Drawing.Size(45, 15);
+            this.lctC1Label.TabIndex = 30;
+            this.lctC1Label.Text = "label5";
+            // 
+            // pictureBox48
+            // 
+            this.pictureBox48.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox48.Image")));
+            this.pictureBox48.Location = new System.Drawing.Point(3, 76);
+            this.pictureBox48.Name = "pictureBox48";
+            this.pictureBox48.Size = new System.Drawing.Size(256, 55);
+            this.pictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox48.TabIndex = 29;
+            this.pictureBox48.TabStop = false;
+            // 
+            // pictureBox49
+            // 
+            this.pictureBox49.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox49.Image")));
+            this.pictureBox49.Location = new System.Drawing.Point(14, 257);
+            this.pictureBox49.Name = "pictureBox49";
+            this.pictureBox49.Size = new System.Drawing.Size(41, 30);
+            this.pictureBox49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox49.TabIndex = 94;
+            this.pictureBox49.TabStop = false;
+            // 
+            // pBox
+            // 
+            this.pBox.Location = new System.Drawing.Point(57, 262);
+            this.pBox.Name = "pBox";
+            this.pBox.Size = new System.Drawing.Size(100, 20);
+            this.pBox.TabIndex = 95;
+            // 
+            // lam0PcPanel
+            // 
+            this.lam0PcPanel.BackColor = System.Drawing.Color.White;
+            this.lam0PcPanel.Controls.Add(this.lam0PcResult);
+            this.lam0PcPanel.Controls.Add(this.pictureBox12);
+            this.lam0PcPanel.Controls.Add(this.pictureBox50);
+            this.lam0PcPanel.Location = new System.Drawing.Point(660, 31);
+            this.lam0PcPanel.Name = "lam0PcPanel";
+            this.lam0PcPanel.Size = new System.Drawing.Size(352, 89);
+            this.lam0PcPanel.TabIndex = 96;
+            this.lam0PcPanel.Visible = false;
+            // 
+            // pictureBox50
+            // 
+            this.pictureBox50.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox50.Image")));
+            this.pictureBox50.Location = new System.Drawing.Point(0, -6);
+            this.pictureBox50.Name = "pictureBox50";
+            this.pictureBox50.Size = new System.Drawing.Size(270, 61);
+            this.pictureBox50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox50.TabIndex = 5;
+            this.pictureBox50.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(8, 51);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(45, 31);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox12.TabIndex = 6;
+            this.pictureBox12.TabStop = false;
+            // 
+            // lam0PcResult
+            // 
+            this.lam0PcResult.AutoSize = true;
+            this.lam0PcResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lam0PcResult.Location = new System.Drawing.Point(54, 57);
+            this.lam0PcResult.Name = "lam0PcResult";
+            this.lam0PcResult.Size = new System.Drawing.Size(53, 15);
+            this.lam0PcResult.TabIndex = 7;
+            this.lam0PcResult.Text = "label15";
+            // 
+            // lam0PWPanel
+            // 
+            this.lam0PWPanel.BackColor = System.Drawing.Color.White;
+            this.lam0PWPanel.Controls.Add(this.lam0PWResult);
+            this.lam0PWPanel.Controls.Add(this.pictureBox13);
+            this.lam0PWPanel.Controls.Add(this.pictureBox14);
+            this.lam0PWPanel.Location = new System.Drawing.Point(238, 32);
+            this.lam0PWPanel.Name = "lam0PWPanel";
+            this.lam0PWPanel.Size = new System.Drawing.Size(352, 89);
+            this.lam0PWPanel.TabIndex = 97;
+            this.lam0PWPanel.Visible = false;
+            // 
+            // lam0PWResult
+            // 
+            this.lam0PWResult.AutoSize = true;
+            this.lam0PWResult.Font = new System.Drawing.Font("Cambria", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lam0PWResult.Location = new System.Drawing.Point(54, 57);
+            this.lam0PWResult.Name = "lam0PWResult";
+            this.lam0PWResult.Size = new System.Drawing.Size(53, 15);
+            this.lam0PWResult.TabIndex = 7;
+            this.lam0PWResult.Text = "label15";
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
+            this.pictureBox13.Location = new System.Drawing.Point(8, 51);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(45, 31);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox13.TabIndex = 6;
+            this.pictureBox13.TabStop = false;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
+            this.pictureBox14.Location = new System.Drawing.Point(0, -6);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(337, 61);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox14.TabIndex = 5;
+            this.pictureBox14.TabStop = false;
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1572, 729);
+            this.ClientSize = new System.Drawing.Size(1051, 729);
+            this.Controls.Add(this.lam0PWPanel);
+            this.Controls.Add(this.lam0PcPanel);
+            this.Controls.Add(this.pBox);
+            this.Controls.Add(this.pictureBox49);
             this.Controls.Add(this.lctCPanel);
             this.Controls.Add(this.fctCPanel);
             this.Controls.Add(this.mtcCPanel);
@@ -1744,17 +1819,12 @@
             this.Controls.Add(this.lctWPanel);
             this.Controls.Add(this.fctWPanel);
             this.Controls.Add(this.mtcWPanel);
-            this.Controls.Add(this.pctWPanel);
             this.Controls.Add(this.qctWPanel);
             this.Controls.Add(this.lam0lPanel);
             this.Controls.Add(this.lam0mPanel);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lam1Box);
             this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox14);
-            this.Controls.Add(this.pictureBox13);
-            this.Controls.Add(this.pictureBox12);
-            this.Controls.Add(this.lam0lCheckBox);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.mtcCheckBox);
@@ -1782,12 +1852,10 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pctWPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form3";
             this.Text = "lab5";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
@@ -1808,66 +1876,70 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             this.qctWPanel.ResumeLayout(false);
             this.qctWPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
             this.pctWPanel.ResumeLayout(false);
             this.pctWPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             this.mtcWPanel.ResumeLayout(false);
             this.mtcWPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
             this.fctWPanel.ResumeLayout(false);
             this.fctWPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
             this.lctWPanel.ResumeLayout(false);
             this.lctWPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
             this.qctCPanel.ResumeLayout(false);
             this.qctCPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
             this.pctCPanel.ResumeLayout(false);
             this.pctCPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
             this.mtcCPanel.ResumeLayout(false);
             this.mtcCPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
             this.fctCPanel.ResumeLayout(false);
             this.fctCPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).EndInit();
             this.lctCPanel.ResumeLayout(false);
             this.lctCPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).EndInit();
+            this.lam0PcPanel.ResumeLayout(false);
+            this.lam0PcPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            this.lam0PWPanel.ResumeLayout(false);
+            this.lam0PWPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.CheckBox lam0lCheckBox;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.CheckBox mtcCheckBox;
@@ -2007,5 +2079,15 @@
         private System.Windows.Forms.Label lctC2Label;
         private System.Windows.Forms.Label lctC1Label;
         private System.Windows.Forms.PictureBox pictureBox48;
+        private System.Windows.Forms.PictureBox pictureBox49;
+        private System.Windows.Forms.TextBox pBox;
+        private System.Windows.Forms.Panel lam0PcPanel;
+        private System.Windows.Forms.PictureBox pictureBox50;
+        private System.Windows.Forms.Label lam0PcResult;
+        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.Panel lam0PWPanel;
+        private System.Windows.Forms.Label lam0PWResult;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox pictureBox14;
     }
 }

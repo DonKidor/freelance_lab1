@@ -17,6 +17,54 @@ namespace flab1
             InitializeComponent();
         }
 
+
+        private double getLambda()
+        {
+            if (lambdaBox.Text.Length > 0) return Convert.ToDouble(lambdaBox.Text);
+            if(mtiBox.Text.Length>0)
+            {
+                if (calcL0m())
+                {
+                    lam0mPanel.Visible = true;
+                    double res = 0;
+                    double mti = Convert.ToDouble(mtiBox.Text);
+                    int n = Convert.ToInt32(nBox.Text);
+                    res = n / mti;
+                    return res;
+                }
+            }
+
+            if (lamiBox.Text.Length > 0)
+            {
+                if (calcL0l())
+                {
+                    lam0lPanel.Visible = true;
+                    double lami = Convert.ToDouble(lamiBox.Text);
+                    int n = Convert.ToInt32(nBox.Text);
+                    double res = lami * n;
+                    return res;
+                }
+            }
+
+            if(l1Box.Text.Length>0)
+            {
+                TextBox[] ts = new TextBox[] { l1Box, l2Box, l3Box };
+                l0LiPanel.Visible = true;
+                
+                double res = 0;
+                for(int i=0; i<3; ++i)
+                {
+                    if(ts[i].Text.Length>0)
+                    {
+                        double l = Convert.ToDouble(ts[i].Text);
+                        res += l;
+                    }
+                }
+                l0LiResult.Text = res.ToString("N5");
+                return res;
+            }
+            throw new FormatException();
+        }
         private bool calcL0m()
         {
             double m;
@@ -67,7 +115,7 @@ namespace flab1
             try
             {
                 m = Convert.ToInt32(mBox.Text);
-                l = Convert.ToDouble(lambdaBox.Text);
+                l = getLambda();
                 t = Convert.ToDouble(timeBox.Text);
             }
             catch (FormatException)
@@ -91,7 +139,7 @@ namespace flab1
             try
             {
                 m = Convert.ToInt32(mBox.Text);
-                l = Convert.ToDouble(lambdaBox.Text);
+                l = getLambda();
             }
             catch (FormatException)
             {
@@ -119,7 +167,7 @@ namespace flab1
             try
             {
                 m = Convert.ToInt32(mBox.Text);
-                l = Convert.ToDouble(lambdaBox.Text);
+                l = getLambda();
                 t = Convert.ToDouble(timeBox.Text);
             }
             catch (FormatException)
@@ -144,7 +192,7 @@ namespace flab1
             try
             {
                 m = Convert.ToInt32(mBox.Text);
-                l = Convert.ToDouble(lambdaBox.Text);
+                l = getLambda();
                 t = Convert.ToDouble(timeBox.Text);
             }
             catch (FormatException)
@@ -168,7 +216,7 @@ namespace flab1
             try
             {
                 m = Convert.ToInt32(mBox.Text);
-                l = Convert.ToDouble(lambdaBox.Text);
+                l = getLambda();
                 t = Convert.ToDouble(timeBox.Text);
             }
             catch (FormatException)
@@ -190,14 +238,13 @@ namespace flab1
             lam0mPanel.Visible = false;
             if(lam0mCheckBox.Checked)
             {
-                lam0mPanel.Visible = calcL0m();
+                try
+                {
+                    getLambda();
+                } catch(FormatException) { }
             }
 
             lam0lPanel.Visible = false;
-            if(lam0lCheckBox.Checked)
-            {
-                lam0lPanel.Visible = calcL0l();
-            }
 
             pctPanel.Visible = false;
             if(pctCheckBox.Checked)
